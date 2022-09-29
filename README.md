@@ -1,7 +1,6 @@
-# Project
+# Microsoft build of OpenJDK Marketplace data for Eclipse Adoptium
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+This repository contains metadata used for listing Microsoft build of OpenJDK builds on the Adoptium marketplace.
 
 As the maintainer of this project, please make a few updates:
 
