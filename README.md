@@ -1,4 +1,6 @@
-# Microsoft Build of OpenJDK - Eclipse Adoptium Marketplace Metadata
+# Microsoft Build of OpenJDK
+
+## Eclipse Adoptium Marketplace Metadata
 
 This repository contains metadata used for listing Microsoft Build of OpenJDK binaries on the Eclipse Adoptium marketplace.
 
