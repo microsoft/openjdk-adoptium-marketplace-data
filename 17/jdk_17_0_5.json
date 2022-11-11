@@ -1,0 +1,145 @@
+{
+    "releases": [
+        {
+            "release_name": "jdk-17.0.5+8",
+            "last_updated_timestamp": "2022-10-25T11:53:20Z",
+            "vendor": "microsoft",
+            "openjdk_version_data" : {
+                "major" : 17,
+                "minor" : 0,
+                "security" : 5,
+                "patch" : null,
+                "pre" : null,
+                "build" : 8,
+                "optional" : null,
+                "openjdk_version" : "17.0.5+8"
+            },
+            "source": {
+                "name": "microsoft-sources-17.0.5.8-all-noarch.tar.gz",
+                "link": "https://aka.ms/download-jdk/microsoft-sources-17.0.5.8-all-noarch.tar.gz"
+            },
+            "binaries": [
+                {
+                    "os": "linux",
+                    "architecture": "x64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "microsoft-jdk-17.0.5-linux-x64.tar.gz",
+                        "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.5-linux-x64.tar.gz",
+                        "sha265sum": "ae1b641bcef007a7693ae388deea754014734481eb83ea4633aa8b935df5813f",
+                        "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.5-linux-x64.tar.gz.sha256sum.txt",
+                        "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.5-linux-x64.tar.gz.sig"
+                    },
+                    "timestamp": "2022-10-25T11:53:20Z",
+                    "openjdk_scm_ref": "jdk-17.0.5+8",
+                    "distribution": "microsoft",
+                    "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/aqa-october-2022-psu/LinuxX64-JDK17.zip"
+                },
+                {
+                    "os": "alpine_linux",
+                    "architecture": "x64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "microsoft-jdk-17.0.5-alpine-x64.tar.gz",
+                        "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.5-alpine-x64.tar.gz",
+                        "sha265sum": "7d49308faed8d25b49ff62a3a24015a01189fb2cfa9aed9d51ce8d02d1d70a4f",
+                        "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.5-alpine-x64.tar.gz.sha256sum.txt",
+                        "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.5-alpine-x64.tar.gz.sig"
+                    },
+                    "timestamp": "2022-10-25T11:53:20Z",
+                    "openjdk_scm_ref": "jdk-17.0.5+8",
+                    "distribution": "microsoft",
+                    "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/aqa-october-2022-psu/Alpine-JDK17.zip"
+                },
+                {
+                    "os": "mac",
+                    "architecture": "x64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "microsoft-jdk-17.0.5-macOS-x64.tar.gz",
+                        "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.5-macOS-x64.tar.gz",
+                        "sha265sum": "45548b3788eb6f4e912412a0a2805f42ccee7ca1c67c4f7ae09887c0e16c50c1",
+                        "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.5-macOS-x64.tar.gz.sha256sum.txt",
+                        "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.5-macOS-x64.tar.gz.sig"
+                    },
+                    "installer" : [ {
+                        "name" : "microsoft-jdk-17.0.5-macOS-x64.pkg",
+                        "link" : "https://aka.ms/download-jdk/microsoft-jdk-17.0.5-macOS-x64.pkg",
+                        "sha265sum" : "1700329e377a124f752d186ddbd6da701c9975984b265d9fd7b2408822162480",
+                        "sha256sum_link" : "https://aka.ms/download-jdk/microsoft-jdk-17.0.5-macOS-x64.pkg.sha256sum.txt"
+                      } ],
+                    "timestamp": "2022-10-25T11:53:20Z",
+                    "openjdk_scm_ref": "jdk-17.0.5+8",
+                    "distribution": "microsoft",
+                    "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/aqa-october-2022-psu/MacosX64-JDK17.zip"
+                },
+                {
+                    "os": "windows",
+                    "architecture": "x64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "microsoft-jdk-17.0.5-windows-x64.zip",
+                        "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.5-windows-x64.zip",
+                        "sha265sum": "1e0fbe327673c5c60b46339898a13b1d990a3ef3561d6625a3dd7e55dbbad912",
+                        "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.5-windows-x64.zip.sha256sum.txt",
+                        "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.5-windows-x64.zip.sig"
+                    },
+                    "installer" : [ {
+                        "name" : "microsoft-jdk-17.0.5-windows-x64.msi",
+                        "link" : "https://aka.ms/download-jdk/microsoft-jdk-17.0.5-windows-x64.msi",
+                        "sha265sum" : "639172d890b3ac805ca81e54a9f0464ec4680b052f1a287183b1024fe7786fc1",
+                        "sha256sum_link" : "https://aka.ms/download-jdk/microsoft-jdk-17.0.5-windows-x64.msi.sha256sum.txt"
+                      } ],
+                    "timestamp": "2022-10-25T11:53:20Z",
+                    "openjdk_scm_ref": "jdk-17.0.5+8",
+                    "distribution": "microsoft",
+                    "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/aqa-october-2022-psu/WindowsX64-JDK17.zip"
+                },
+                {
+                    "os": "linux",
+                    "architecture": "aarch64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "microsoft-jdk-17.0.5-linux-aarch64.tar.gz",
+                        "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.5-linux-aarch64.tar.gz",
+                        "sha265sum": "76694e842b5a317439669b657a3f2a240235238e05f4d0b8a820d34cafb0316c",
+                        "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.5-linux-aarch64.tar.gz.sha256sum.txt",
+                        "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.5-linux-aarch64.tar.gz.sig"
+                    },
+                    "timestamp": "2022-10-25T11:53:20Z",
+                    "openjdk_scm_ref": "jdk-17.0.5+8",
+                    "distribution": "microsoft",
+                    "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/aqa-october-2022-psu/LinuxARM-JDK17.zip"
+                },
+                {
+                    "os": "mac",
+                    "architecture": "aarch64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "microsoft-jdk-17.0.5-macOS-aarch64.tar.gz",
+                        "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.5-macOS-aarch64.tar.gz",
+                        "sha265sum": "d14e4af5c175efdde2b71678a0cb012be5fceb8ae12db15273fd331b5e64073a",
+                        "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.5-macOS-aarch64.tar.gz.sha256sum.txt",
+                        "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.5-macOS-aarch64.tar.gz.sig"
+                    },
+                    "installer" : [ {
+                        "name" : "microsoft-jdk-17.0.5-macOS-aarch64.pkg",
+                        "link" : "https://aka.ms/download-jdk/microsoft-jdk-17.0.5-macOS-aarch64.pkg",
+                        "sha265sum" : "792b569aaf64f3d70ca934eb97c00900b5320113acc9438d79ba8eca05bdc34e",
+                        "sha256sum_link" : "https://aka.ms/download-jdk/microsoft-jdk-17.0.5-macOS-aarch64.pkg.sha256sum.txt"
+                      } ],
+                    "timestamp": "2022-10-25T11:53:20Z",
+                    "openjdk_scm_ref": "jdk-17.0.5+8",
+                    "distribution": "microsoft",
+                    "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/aqa-october-2022-psu/MacOSARM-JDK17.zip"
+                }
+            ]
+        }
+    ]
+}
