@@ -2,6 +2,7 @@
     "schema_version": "1.0.0",
     "indexes": [],
     "releases": [
+        "jdk_11_0_18.json",
         "jdk_11_0_17.json"
     ]
 }

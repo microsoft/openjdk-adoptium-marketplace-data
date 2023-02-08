@@ -2,7 +2,7 @@
     "releases": [
         {
             "release_name": "jdk-11.0.18+10",
-            "last_updated_timestamp": "2022-10-25T09:25:08Z",
+            "last_updated_timestamp": "2023-01-19T09:00:00Z",
             "vendor": "microsoft",
             "openjdk_version_data" : {
                 "major" : 11,
@@ -31,7 +31,7 @@
                         "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.18-linux-x64.tar.gz.sha256sum.txt",
                         "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.18-linux-x64.tar.gz.sig"
                     },
-                    "timestamp": "2022-10-25T09:25:08Z",
+                    "timestamp": "2023-01-19T09:00:00Z",
                     "openjdk_scm_ref": "jdk-11.0.18+10",
                     "distribution": "microsoft",
                     "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/aqa-jan-2023-psu/linuxx64-JDK11.zip"
@@ -48,7 +48,7 @@
                         "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.18-alpine-x64.tar.gz.sha256sum.txt",
                         "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.18-alpine-x64.tar.gz.sig"
                     },
-                    "timestamp": "2022-10-25T09:25:08Z",
+                    "timestamp": "2023-01-19T09:00:00Z",
                     "openjdk_scm_ref": "jdk-11.0.18+10",
                     "distribution": "microsoft",
                     "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/aqa-jan-2023-psu/alpinex64-JDK11.zip"
@@ -71,7 +71,7 @@
                         "sha265sum" : "64eac50960406d3671936bc85d675a66fdcb54683075b54738d7ecffee41f20b",
                         "sha256sum_link" : "https://aka.ms/download-jdk/microsoft-jdk-11.0.18-macOS-x64.pkg.sha256sum.txt"
                       } ],
-                    "timestamp": "2022-10-25T09:25:08Z",
+                    "timestamp": "2023-01-19T09:00:00Z",
                     "openjdk_scm_ref": "jdk-11.0.18+10",
                     "distribution": "microsoft",
                     "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/aqa-jan-2023-psu/macOSx64-JDK11.zip"
@@ -94,7 +94,7 @@
                         "sha265sum" : "fa0ef7750af784f947f29c41659532d174c11210f05e3e36d1c422993ba8709e",
                         "sha256sum_link" : "https://aka.ms/download-jdk/microsoft-jdk-11.0.18-windows-x64.msi.sha256sum.txt"
                       } ],
-                    "timestamp": "2022-10-25T09:25:08Z",
+                    "timestamp": "2023-01-19T09:00:00Z",
                     "openjdk_scm_ref": "jdk-11.0.18+10",
                     "distribution": "microsoft",
                     "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/aqa-jan-2023-psu/windowsx64-JDK11.zip"
@@ -117,7 +117,7 @@
                         "sha265sum" : "c31a4480c25cefa96a56903e2488ac934b1adab15a0b6c7c52326870163651af",
                         "sha256sum_link" : "https://aka.ms/download-jdk/microsoft-jdk-11.0.18-windows-aarch64.msi.sha256sum.txt"
                       } ],
-                    "timestamp": "2022-10-25T09:25:08Z",
+                    "timestamp": "2023-01-19T09:00:00Z",
                     "openjdk_scm_ref": "jdk-11.0.18+10",
                     "distribution": "microsoft",
                     "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/aqa-jan-2023-psu/windows-aarch64-JDK11.zip"
@@ -134,7 +134,7 @@
                         "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.18-linux-aarch64.tar.gz.sha256sum.txt",
                         "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.18-linux-aarch64.tar.gz.sig"
                     },
-                    "timestamp": "2022-10-25T09:25:08Z",
+                    "timestamp": "2023-01-19T09:00:00Z",
                     "openjdk_scm_ref": "jdk-11.0.18+10",
                     "distribution": "microsoft",
                     "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/aqa-jan-2023-psu/linux-aarch64-JDK11.zip"
@@ -157,7 +157,7 @@
                         "sha265sum" : "e0a3a25272f7ee97e56fb0b7a0deab40bfa04e8ec12aeb513bc24506d7c4570d",
                         "sha256sum_link" : "https://aka.ms/download-jdk/microsoft-jdk-11.0.18-macOS-aarch64.pkg.sha256sum.txt"
                       } ],
-                    "timestamp": "2022-10-25T09:25:08Z",
+                    "timestamp": "2023-01-19T09:00:00Z",
                     "openjdk_scm_ref": "jdk-11.0.18+10",
                     "distribution": "microsoft",
                     "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/aqa-jan-2023-psu/macOS-aarch64-JDK11.zip"
