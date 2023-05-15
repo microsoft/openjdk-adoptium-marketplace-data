@@ -1,14 +1,31 @@
 #!/usr/bin/env bash
 
-# Pull directory to sign, public key, and secret key from input args
-while getopts d:s:p: flag
-do
-    case "${flag}" in
-        d) content_dir=${OPTARG};;
-        s) secret_key_file=${OPTARG};;
-        p) public_key_file=${OPTARG};;
+PROGRAM_NAME="${0##*/}"
+
+# Read input args
+while [[ "$#" -gt 0 ]]; do
+    case $1 in
+        -h|--help) HELP=true ;;
+        -d|--directory) content_dir="$2"; shift ;;
+        -s|--secret-key) secret_key_file=$2; shift ;;
+        -p|--public-key) public_key_file=$2; shift ;;
+        *) echo "Unknown parameter passed: $1"; exit 1 ;;
     esac
+    shift
 done
+
+if [ "$HELP" = true ] ; then
+    echo "Usage: $PROGRAM_NAME [options]"
+    echo ""
+    echo "Signs all .json files within input directory"
+    echo ""
+    echo "Options:"
+    echo "-h, --help                Show this help message and exit."
+    echo "-d, --directory <path>    Input folder containing .json files to sign."
+    echo "-s, --secret-key <path>   Path to secret key used for signing."
+    echo "-s, --public-key <path>   Path to public key used for signing."
+    exit 0
+fi
 
 # These steps were derived from the adoptium documentation found at:
 # https://adoptium.net/docs/marketplace-listing/
