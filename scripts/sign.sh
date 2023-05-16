@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
+set -eux
 
 PROGRAM_NAME="${0##*/}"
+# Set defaults
+secret_key_file="../private.pem"
+public_key_file="../public.pem"
 
 # Read input args
 while [[ "$#" -gt 0 ]]; do
@@ -21,22 +25,24 @@ if [ "$HELP" = true ] ; then
     echo ""
     echo "Options:"
     echo "-h, --help                Show this help message and exit."
-    echo "-d, --directory <path>    Input folder containing .json files to sign."
-    echo "-s, --secret-key <path>   Path to secret key used for signing."
-    echo "-s, --public-key <path>   Path to public key used for signing."
+    echo "-d, --directory <path>    Required. Input folder containing .json files to sign."
+    echo "-s, --secret-key <path>   Required. Path to secret key used for signing."
+    echo "                          Default: '../private.pem'"
+    echo "-s, --public-key <path>   Required. Path to public key used for signing."
+    echo "                          Default: '../public.pem'"
     exit 0
 fi
 
 # These steps were derived from the adoptium documentation found at:
 # https://adoptium.net/docs/marketplace-listing/
 for json in $(ls ${content_dir}/*.json); do
-    echo "$json"
-    # Generate signature
+    echo "Signing and checking: $json"
+    # Use secret key to sha256-sign json file
     openssl dgst -sha256 -sign "$secret_key_file" -out ${json}.sig $json
 
-    # Verify
+    # Verify that the generated signature is correct using public key
     openssl dgst -sha256 -verify "$public_key_file" -signature ${json}.sig $json
 
-    # Base64 encode for publishing
+    # Dump signature to base64 encoded file for human readability
     cat ${json}.sig | base64 -w 0 > ${json}.sha256.sign
 done;
