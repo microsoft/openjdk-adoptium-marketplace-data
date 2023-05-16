@@ -5,6 +5,7 @@ PROGRAM_NAME="${0##*/}"
 # Set defaults
 secret_key_file="../private.pem"
 public_key_file="../public.pem"
+HELP=false
 
 # Read input args
 while [[ "$#" -gt 0 ]]; do
