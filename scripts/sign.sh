@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -eux
+set -eu
 
 PROGRAM_NAME="${0##*/}"
 # Set defaults
