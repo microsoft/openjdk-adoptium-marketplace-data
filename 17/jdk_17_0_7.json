@@ -123,7 +123,7 @@
                             "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.7-windows-aarch64.msi.sha256sum.txt"
                         }
                     ],
-                    "timestamp": "2022-10-25T09:25:08Z",
+                    "timestamp": "2023-05-11T09:00:00Z",
                     "openjdk_scm_ref": "jdk-17.0.7+7",
                     "distribution": "microsoft",
                     "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/aqa-apr-2023-tap/jdk17u-windows-arm64.zip"
