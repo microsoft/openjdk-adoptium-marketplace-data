@@ -27,7 +27,7 @@
                     "package": {
                         "name": "microsoft-jdk-11.0.20-linux-x64.tar.gz",
                         "link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.20-linux-x64.tar.gz",
-                        "sha265sum": "04327bea8b49ed9186b9b524e3373ff1c9ab43e6b124c089d70041ceb643d449",
+                        "sha256sum": "04327bea8b49ed9186b9b524e3373ff1c9ab43e6b124c089d70041ceb643d449",
                         "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.20-linux-x64.tar.gz.sha256sum.txt",
                         "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.20-linux-x64.tar.gz.sig"
                     },
@@ -44,7 +44,7 @@
                     "package": {
                         "name": "microsoft-jdk-11.0.20-macOS-x64.tar.gz",
                         "link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.20-macOS-x64.tar.gz",
-                        "sha265sum": "70f52a819119f97c54e825f56f75d813e60088816f684bc59e06608783eb0a78",
+                        "sha256sum": "70f52a819119f97c54e825f56f75d813e60088816f684bc59e06608783eb0a78",
                         "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.20-macOS-x64.tar.gz.sha256sum.txt",
                         "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.20-macOS-x64.tar.gz.sig"
                     },
@@ -52,7 +52,7 @@
                         {
                             "name": "microsoft-jdk-11.0.20-macOS-x64.pkg",
                             "link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.20-macOS-x64.pkg",
-                            "sha265sum": "98564371812341c04ec3821cf2e1b74d64da4e8b510de9c265628ec721296f60",
+                            "sha256sum": "98564371812341c04ec3821cf2e1b74d64da4e8b510de9c265628ec721296f60",
                             "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.20-macOS-x64.pkg.sha256sum.txt"
                         }
                     ],
@@ -69,7 +69,7 @@
                     "package": {
                         "name": "microsoft-jdk-11.0.20-windows-x64.zip",
                         "link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.20-windows-x64.zip",
-                        "sha265sum": "3fb39de21c2960a91b4523eed051d5a8e8cf0d7f6d04cef7e4567c1acfac52a5",
+                        "sha256sum": "3fb39de21c2960a91b4523eed051d5a8e8cf0d7f6d04cef7e4567c1acfac52a5",
                         "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.20-windows-x64.zip.sha256sum.txt",
                         "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.20-windows-x64.zip.sig"
                     },
@@ -77,7 +77,7 @@
                         {
                             "name": "microsoft-jdk-11.0.20-windows-x64.msi",
                             "link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.20-windows-x64.msi",
-                            "sha265sum": "f0a0e4d5255e7844faa0ae508e7410c0d6bc1d9c0b596f62ff1224e81af341f2",
+                            "sha256sum": "f0a0e4d5255e7844faa0ae508e7410c0d6bc1d9c0b596f62ff1224e81af341f2",
                             "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.20-windows-x64.msi.sha256sum.txt"
                         }
                     ],
@@ -94,7 +94,7 @@
                     "package": {
                         "name": "microsoft-jdk-11.0.20-windows-aarch64.zip",
                         "link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.20-windows-aarch64.zip",
-                        "sha265sum": "677b337831630afe282c90e28afe1017b2df2cae2f3d6d88c0d69fc5fed6ab7e",
+                        "sha256sum": "677b337831630afe282c90e28afe1017b2df2cae2f3d6d88c0d69fc5fed6ab7e",
                         "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.20-windows-aarch64.zip.sha256sum.txt",
                         "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.20-windows-aarch64.zip.sig"
                     },
@@ -102,7 +102,7 @@
                         {
                             "name": "microsoft-jdk-11.0.20-windows-aarch64.msi",
                             "link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.20-windows-aarch64.msi",
-                            "sha265sum": "8cf9fee5c74498a5b605177bcf77f36107d2a9828225ab97ed58d87b60765ff6",
+                            "sha256sum": "8cf9fee5c74498a5b605177bcf77f36107d2a9828225ab97ed58d87b60765ff6",
                             "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.20-windows-aarch64.msi.sha256sum.txt"
                         }
                     ],
@@ -119,7 +119,7 @@
                     "package": {
                         "name": "microsoft-jdk-11.0.20-linux-aarch64.tar.gz",
                         "link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.20-linux-aarch64.tar.gz",
-                        "sha265sum": "0aaf48d5bed9fd1bfd2bfaaa33007bee0dabccb8fb791ddd468f9b49839823ad",
+                        "sha256sum": "0aaf48d5bed9fd1bfd2bfaaa33007bee0dabccb8fb791ddd468f9b49839823ad",
                         "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.20-linux-aarch64.tar.gz.sha256sum.txt",
                         "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.20-linux-aarch64.tar.gz.sig"
                     },
@@ -136,7 +136,7 @@
                     "package": {
                         "name": "microsoft-jdk-11.0.20-macOS-aarch64.tar.gz",
                         "link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.20-macOS-aarch64.tar.gz",
-                        "sha265sum": "7ec3a5a77a73fb076adbb369a967e53716b250da611bd0c45b5760111e6ee902",
+                        "sha256sum": "7ec3a5a77a73fb076adbb369a967e53716b250da611bd0c45b5760111e6ee902",
                         "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.20-macOS-aarch64.tar.gz.sha256sum.txt",
                         "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.20-macOS-aarch64.tar.gz.sig"
                     },
@@ -144,7 +144,7 @@
                         {
                             "name": "microsoft-jdk-11.0.20-macOS-aarch64.pkg",
                             "link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.20-macOS-aarch64.pkg",
-                            "sha265sum": "4d48a27153fd64f93b6fa0bdac6ed7855e2dd03372ea1e8b35d85fbc671a2be4",
+                            "sha256sum": "4d48a27153fd64f93b6fa0bdac6ed7855e2dd03372ea1e8b35d85fbc671a2be4",
                             "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.20-macOS-aarch64.pkg.sha256sum.txt"
                         }
                     ],

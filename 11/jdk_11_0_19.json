@@ -27,7 +27,7 @@
                     "package": {
                         "name": "microsoft-jdk-11.0.19-linux-x64.tar.gz",
                         "link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.19-linux-x64.tar.gz",
-                        "sha265sum": "f4780a350756cfb464fa19c8865c574a00a196808b32f85722d02ab08e1a0b7d",
+                        "sha256sum": "f4780a350756cfb464fa19c8865c574a00a196808b32f85722d02ab08e1a0b7d",
                         "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.19-linux-x64.tar.gz.sha256sum.txt",
                         "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.19-linux-x64.tar.gz.sig"
                     },
@@ -44,7 +44,7 @@
                     "package": {
                         "name": "microsoft-jdk-11.0.19-alpine-x64.tar.gz",
                         "link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.19-alpine-x64.tar.gz",
-                        "sha265sum": "fa1c0292af535c3f68ce1bbfa01224620eacee512249ffa348f32e62f61c82a9",
+                        "sha256sum": "fa1c0292af535c3f68ce1bbfa01224620eacee512249ffa348f32e62f61c82a9",
                         "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.19-alpine-x64.tar.gz.sha256sum.txt",
                         "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.19-alpine-x64.tar.gz.sig"
                     },
@@ -61,7 +61,7 @@
                     "package": {
                         "name": "microsoft-jdk-11.0.19-macOS-x64.tar.gz",
                         "link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.19-macOS-x64.tar.gz",
-                        "sha265sum": "61c3b5e5770154788505670085df8345173f2881e456c396659e4ba5e54552cc",
+                        "sha256sum": "61c3b5e5770154788505670085df8345173f2881e456c396659e4ba5e54552cc",
                         "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.19-macOS-x64.tar.gz.sha256sum.txt",
                         "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.19-macOS-x64.tar.gz.sig"
                     },
@@ -69,7 +69,7 @@
                         {
                             "name": "microsoft-jdk-11.0.19-macOS-x64.pkg",
                             "link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.19-macOS-x64.pkg",
-                            "sha265sum": "8023a4e6df608a798146f0ff80bf1f9829d641c6d7a332a8cb21c0ce12e44d1f",
+                            "sha256sum": "8023a4e6df608a798146f0ff80bf1f9829d641c6d7a332a8cb21c0ce12e44d1f",
                             "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.19-macOS-x64.pkg.sha256sum.txt"
                         }
                     ],
@@ -86,7 +86,7 @@
                     "package": {
                         "name": "microsoft-jdk-11.0.19-windows-x64.zip",
                         "link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.19-windows-x64.zip",
-                        "sha265sum": "99b4ce49f4d9d3d2efdc1d87d2b95ff1a966ec59f1b85a67ca299615ced977b4",
+                        "sha256sum": "99b4ce49f4d9d3d2efdc1d87d2b95ff1a966ec59f1b85a67ca299615ced977b4",
                         "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.19-windows-x64.zip.sha256sum.txt",
                         "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.19-windows-x64.zip.sig"
                     },
@@ -94,7 +94,7 @@
                         {
                             "name": "microsoft-jdk-11.0.19-windows-x64.msi",
                             "link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.19-windows-x64.msi",
-                            "sha265sum": "1569d8affa7f2ffd0bc8f7889dd328834f605291c006e70f60356d1c67a8576c",
+                            "sha256sum": "1569d8affa7f2ffd0bc8f7889dd328834f605291c006e70f60356d1c67a8576c",
                             "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.19-windows-x64.msi.sha256sum.txt"
                         }
                     ],
@@ -111,7 +111,7 @@
                     "package": {
                         "name": "microsoft-jdk-11.0.19-windows-aarch64.zip",
                         "link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.19-windows-aarch64.zip",
-                        "sha265sum": "2f321bfe2cd2a4759b061f37c82d57d8944e0983bda84d6f9a4d790dd21ccb94",
+                        "sha256sum": "2f321bfe2cd2a4759b061f37c82d57d8944e0983bda84d6f9a4d790dd21ccb94",
                         "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.19-windows-aarch64.zip.sha256sum.txt",
                         "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.19-windows-aarch64.zip.sig"
                     },
@@ -119,7 +119,7 @@
                         {
                             "name": "microsoft-jdk-11.0.19-windows-aarch64.msi",
                             "link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.19-windows-aarch64.msi",
-                            "sha265sum": "a74e370d7659e7558f33b2f34dedf3a153c63aba535849ba8b9c64e668cbddc4",
+                            "sha256sum": "a74e370d7659e7558f33b2f34dedf3a153c63aba535849ba8b9c64e668cbddc4",
                             "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.19-windows-aarch64.msi.sha256sum.txt"
                         }
                     ],
@@ -136,7 +136,7 @@
                     "package": {
                         "name": "microsoft-jdk-11.0.19-linux-aarch64.tar.gz",
                         "link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.19-linux-aarch64.tar.gz",
-                        "sha265sum": "d017865e8b0fb9871b5ab854423ce08bd923fc869927a45fbbc2e2dda95dbc4a",
+                        "sha256sum": "d017865e8b0fb9871b5ab854423ce08bd923fc869927a45fbbc2e2dda95dbc4a",
                         "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.19-linux-aarch64.tar.gz.sha256sum.txt",
                         "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.19-linux-aarch64.tar.gz.sig"
                     },
@@ -153,7 +153,7 @@
                     "package": {
                         "name": "microsoft-jdk-11.0.19-macOS-aarch64.tar.gz",
                         "link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.19-macOS-aarch64.tar.gz",
-                        "sha265sum": "ea35aa9cdadd6bde65fc470b60e88a1ed015ef445ae3958f968317d7d643657c",
+                        "sha256sum": "ea35aa9cdadd6bde65fc470b60e88a1ed015ef445ae3958f968317d7d643657c",
                         "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.19-macOS-aarch64.tar.gz.sha256sum.txt",
                         "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.19-macOS-aarch64.tar.gz.sig"
                     },
@@ -161,7 +161,7 @@
                         {
                             "name": "microsoft-jdk-11.0.19-macOS-aarch64.pkg",
                             "link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.19-macOS-aarch64.pkg",
-                            "sha265sum": "90f09324dd292277b8b4cf9b7b6dd744abd181154d40d484369cff1e7cd98647",
+                            "sha256sum": "90f09324dd292277b8b4cf9b7b6dd744abd181154d40d484369cff1e7cd98647",
                             "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.19-macOS-aarch64.pkg.sha256sum.txt"
                         }
                     ],
