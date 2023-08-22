@@ -1,0 +1,159 @@
+{
+    "releases": [
+        {
+            "release_name": "jdk-17.0.8+7",
+            "last_updated_timestamp": "2023-08-22T09:00:00Z",
+            "vendor": "microsoft",
+            "openjdk_version_data": {
+                "major": 17,
+                "minor": 0,
+                "security": 8,
+                "patch": null,
+                "pre": null,
+                "build": 7,
+                "optional": null,
+                "openjdk_version": "17.0.8+7"
+            },
+            "source": {
+                "name": "microsoft-sources-17.0.8_7-all-noarch.tar.gz",
+                "link": "https://aka.ms/download-jdk/microsoft-sources-17.0.8_7-all-noarch.tar.gz"
+            },
+            "binaries": [
+                {
+                    "os": "linux",
+                    "architecture": "x64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "microsoft-jdk-17.0.8-linux-x64.tar.gz",
+                        "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.8-linux-x64.tar.gz",
+                        "sha265sum": "7fac02529c57525ee8fed6ea699df9122e12fb3092745d2ce6a461290129e1f6",
+                        "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.8-linux-x64.tar.gz.sha256sum.txt",
+                        "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.8-linux-x64.tar.gz.sig"
+                    },
+                    "timestamp": "2023-08-22T09:00:00Z",
+                    "openjdk_scm_ref": "jdk-17.0.8+7",
+                    "distribution": "microsoft",
+                    "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/july-2023-psu-tap-final/jdk17_linux_x64.zip"
+                },
+                {
+                    "os": "mac",
+                    "architecture": "x64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "microsoft-jdk-17.0.8-macOS-x64.tar.gz",
+                        "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.8-macOS-x64.tar.gz",
+                        "sha265sum": "88e74d5011a36bc7120e66d05ef66deb5c439125b80e830f7ae073897a43bd65",
+                        "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.8-macOS-x64.tar.gz.sha256sum.txt",
+                        "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.8-macOS-x64.tar.gz.sig"
+                    },
+                    "installer": [
+                        {
+                            "name": "microsoft-jdk-17.0.8-macOS-x64.pkg",
+                            "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.8-macOS-x64.pkg",
+                            "sha265sum": "72e2fb7cf644d965f5d2b993250ef3f35ed8a728ea441407bc966822e6503ede",
+                            "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.8-macOS-x64.pkg.sha256sum.txt"
+                        }
+                    ],
+                    "timestamp": "2023-08-22T09:00:00Z",
+                    "openjdk_scm_ref": "jdk-17.0.8+7",
+                    "distribution": "microsoft",
+                    "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/july-2023-psu-tap-final/jdk17_macOS_x64.zip"
+                },
+                {
+                    "os": "windows",
+                    "architecture": "x64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "microsoft-jdk-17.0.8-windows-x64.zip",
+                        "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.8-windows-x64.zip",
+                        "sha265sum": "db6e7e7506296b8a2338f6047fdc94bf4bbc147b7a3574d9a035c3271ae1a92b",
+                        "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.8-windows-x64.zip.sha256sum.txt",
+                        "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.8-windows-x64.zip.sig"
+                    },
+                    "installer": [
+                        {
+                            "name": "microsoft-jdk-17.0.8-windows-x64.msi",
+                            "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.8-windows-x64.msi",
+                            "sha265sum": "f029e88cdadce4e32bf8e45c2ae31d6015996f10bd836eb255bae86d8246d332",
+                            "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.8-windows-x64.msi.sha256sum.txt"
+                        }
+                    ],
+                    "timestamp": "2023-08-22T09:00:00Z",
+                    "openjdk_scm_ref": "jdk-17.0.8+7",
+                    "distribution": "microsoft",
+                    "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/july-2023-psu-tap-final/jdk17_windows_x64.zip"
+                },
+                {
+                    "os": "windows",
+                    "architecture": "aarch64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "microsoft-jdk-17.0.8-windows-aarch64.zip",
+                        "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.8-windows-aarch64.zip",
+                        "sha265sum": "9a6fad6fb52deb5001a33a77d7830659cd463b20537ecdc8c55fa4b9c477f2c2",
+                        "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.8-windows-aarch64.zip.sha256sum.txt",
+                        "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.8-windows-aarch64.zip.sig"
+                    },
+                    "installer": [
+                        {
+                            "name": "microsoft-jdk-17.0.8-windows-aarch64.msi",
+                            "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.8-windows-aarch64.msi",
+                            "sha265sum": "f232eaf819f1bcaabc7e3303f435460839a710c76156900d5db09b1ca35b12cd",
+                            "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.8-windows-aarch64.msi.sha256sum.txt"
+                        }
+                    ],
+                    "timestamp": "2023-08-22T09:00:00Z",
+                    "openjdk_scm_ref": "jdk-17.0.8+7",
+                    "distribution": "microsoft",
+                    "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/july-2023-psu-tap-final/jdk17_windows_aarch64.zip"
+                },
+                {
+                    "os": "linux",
+                    "architecture": "aarch64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "microsoft-jdk-17.0.8-linux-aarch64.tar.gz",
+                        "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.8-linux-aarch64.tar.gz",
+                        "sha265sum": "b099f464f0ebaa1cb3cfd8ca0b6b26ccd332c6989b37cf180dbc6436723e7de2",
+                        "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.8-linux-aarch64.tar.gz.sha256sum.txt",
+                        "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.8-linux-aarch64.tar.gz.sig"
+                    },
+                    "timestamp": "2023-08-22T09:00:00Z",
+                    "openjdk_scm_ref": "jdk-17.0.8+7",
+                    "distribution": "microsoft",
+                    "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/july-2023-psu-tap-final/jdk17_linux_aarch64.zip"
+                },
+                {
+                    "os": "mac",
+                    "architecture": "aarch64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "microsoft-jdk-17.0.8-macOS-aarch64.tar.gz",
+                        "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.8-macOS-aarch64.tar.gz",
+                        "sha265sum": "4bbdb18be7af5f2af8fcb782e6372ac32d854d5672006ebcc623f544298646c0",
+                        "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.8-macOS-aarch64.tar.gz.sha256sum.txt",
+                        "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.8-macOS-aarch64.tar.gz.sig"
+                    },
+                    "installer": [
+                        {
+                            "name": "microsoft-jdk-17.0.8-macOS-aarch64.pkg",
+                            "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.8-macOS-aarch64.pkg",
+                            "sha265sum": "85ed18183e7241401fcf37ff1f649fce8f98e71f1040e0773bea02c81b0017c8",
+                            "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.8-macOS-aarch64.pkg.sha256sum.txt"
+                        }
+                    ],
+                    "timestamp": "2023-08-22T09:00:00Z",
+                    "openjdk_scm_ref": "jdk-17.0.8+7",
+                    "distribution": "microsoft",
+                    "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/july-2023-psu-tap-final/jdk17_macOS_aarch64.zip"
+                }
+            ]
+        }
+    ]
+}
