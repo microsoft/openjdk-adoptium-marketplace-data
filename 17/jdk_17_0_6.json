@@ -27,7 +27,7 @@
                     "package": {
                         "name": "microsoft-jdk-17.0.6-linux-x64.tar.gz",
                         "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.6-linux-x64.tar.gz",
-                        "sha265sum": "04b31119c200945a6e668fcf4bb6303d1add2fbd188849970c0962e154f6dd8f",
+                        "sha256sum": "04b31119c200945a6e668fcf4bb6303d1add2fbd188849970c0962e154f6dd8f",
                         "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.6-linux-x64.tar.gz.sha256sum.txt",
                         "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.6-linux-x64.tar.gz.sig"
                     },
@@ -44,7 +44,7 @@
                     "package": {
                         "name": "microsoft-jdk-17.0.6-alpine-x64.tar.gz",
                         "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.6-alpine-x64.tar.gz",
-                        "sha265sum": "878cd02127ee7555190bcd02d5f3c3f86ccf8e84e9f12a36ab07ff4c00272acc",
+                        "sha256sum": "878cd02127ee7555190bcd02d5f3c3f86ccf8e84e9f12a36ab07ff4c00272acc",
                         "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.6-alpine-x64.tar.gz.sha256sum.txt",
                         "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.6-alpine-x64.tar.gz.sig"
                     },
@@ -61,7 +61,7 @@
                     "package": {
                         "name": "microsoft-jdk-17.0.6-macOS-x64.tar.gz",
                         "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.6-macOS-x64.tar.gz",
-                        "sha265sum": "8dce6849b8bab15c636ae9071e3a7d6cb4951df210c6119233d9c2bd4b6edf16",
+                        "sha256sum": "8dce6849b8bab15c636ae9071e3a7d6cb4951df210c6119233d9c2bd4b6edf16",
                         "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.6-macOS-x64.tar.gz.sha256sum.txt",
                         "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.6-macOS-x64.tar.gz.sig"
                     },
@@ -69,7 +69,7 @@
                         {
                             "name": "microsoft-jdk-17.0.6-macOS-x64.pkg",
                             "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.6-macOS-x64.pkg",
-                            "sha265sum": "64d9c4f9690c73d0dc258f53034d7f0a350352e8b27a04ed14284e5b1fea1749",
+                            "sha256sum": "64d9c4f9690c73d0dc258f53034d7f0a350352e8b27a04ed14284e5b1fea1749",
                             "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.6-macOS-x64.pkg.sha256sum.txt"
                         }
                     ],
@@ -86,7 +86,7 @@
                     "package": {
                         "name": "microsoft-jdk-17.0.6-windows-x64.zip",
                         "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.6-windows-x64.zip",
-                        "sha265sum": "15e8f5dbb57288d316993e793f8965d624ff5e58dfb5c5a7db1ef8ebff68bc49",
+                        "sha256sum": "15e8f5dbb57288d316993e793f8965d624ff5e58dfb5c5a7db1ef8ebff68bc49",
                         "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.6-windows-x64.zip.sha256sum.txt",
                         "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.6-windows-x64.zip.sig"
                     },
@@ -94,7 +94,7 @@
                         {
                             "name": "microsoft-jdk-17.0.6-windows-x64.msi",
                             "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.6-windows-x64.msi",
-                            "sha265sum": "ad3c2ea8b991bcb99eedff9d09962ae8d2fe8215955b5ce3f268c42cd492bcc8",
+                            "sha256sum": "ad3c2ea8b991bcb99eedff9d09962ae8d2fe8215955b5ce3f268c42cd492bcc8",
                             "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.6-windows-x64.msi.sha256sum.txt"
                         }
                     ],
@@ -111,7 +111,7 @@
                     "package": {
                         "name": "microsoft-jdk-17.0.6-windows-aarch64.zip",
                         "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.6-windows-aarch64.zip",
-                        "sha265sum": "0a24e2382841387bad274ff70f0c3537e3eb3ceb47bc8bc5dc22626b2cb6a87c",
+                        "sha256sum": "0a24e2382841387bad274ff70f0c3537e3eb3ceb47bc8bc5dc22626b2cb6a87c",
                         "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.6-windows-aarch64.zip.sha256sum.txt",
                         "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.6-windows-aarch64.zip.sig"
                     },
@@ -119,7 +119,7 @@
                         {
                             "name": "microsoft-jdk-17.0.6-windows-aarch64.msi",
                             "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.6-windows-aarch64.msi",
-                            "sha265sum": "5744191e694ab48c2607d7feaff78b15a13e315b23f9551c6fcf973e5fa3b49c",
+                            "sha256sum": "5744191e694ab48c2607d7feaff78b15a13e315b23f9551c6fcf973e5fa3b49c",
                             "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.6-windows-aarch64.msi.sha256sum.txt"
                         }
                     ],
@@ -136,7 +136,7 @@
                     "package": {
                         "name": "microsoft-jdk-17.0.6-linux-aarch64.tar.gz",
                         "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.6-linux-aarch64.tar.gz",
-                        "sha265sum": "0525b8024e2338c27cea6b958f3685cc87a18540745d5bb0415de47d8371ddc6",
+                        "sha256sum": "0525b8024e2338c27cea6b958f3685cc87a18540745d5bb0415de47d8371ddc6",
                         "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.6-linux-aarch64.tar.gz.sha256sum.txt",
                         "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.6-linux-aarch64.tar.gz.sig"
                     },
@@ -153,7 +153,7 @@
                     "package": {
                         "name": "microsoft-jdk-17.0.6-macOS-aarch64.tar.gz",
                         "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.6-macOS-aarch64.tar.gz",
-                        "sha265sum": "fcf089eb05cfe5684ed4b33edfb55696f5573c3508d4b2ecf745846e5fc78a9e",
+                        "sha256sum": "fcf089eb05cfe5684ed4b33edfb55696f5573c3508d4b2ecf745846e5fc78a9e",
                         "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.6-macOS-aarch64.tar.gz.sha256sum.txt",
                         "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.6-macOS-aarch64.tar.gz.sig"
                     },
@@ -161,7 +161,7 @@
                         {
                             "name": "microsoft-jdk-17.0.6-macOS-aarch64.pkg",
                             "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.6-macOS-aarch64.pkg",
-                            "sha265sum": "ccf3e75ae7798d91add4fd2f7fb5d8dfd01b413ecdc22982ea50584d5dfe362c",
+                            "sha256sum": "ccf3e75ae7798d91add4fd2f7fb5d8dfd01b413ecdc22982ea50584d5dfe362c",
                             "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.6-macOS-aarch64.pkg.sha256sum.txt"
                         }
                     ],
