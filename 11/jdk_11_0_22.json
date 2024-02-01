@@ -34,7 +34,7 @@
                     "timestamp": "2024-01-31T09:00:00Z",
                     "openjdk_scm_ref": "jdk-11.0.22+7",
                     "distribution": "microsoft",
-                    "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/july-2023-psu-tap-final/jdk11_linux_x64.zip"
+                    "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/aqa-january-2024-tap/linux-x64-JDK11.zip"
                 },
                 {
                     "os": "mac",
@@ -59,7 +59,7 @@
                     "timestamp": "2024-01-31T09:00:00Z",
                     "openjdk_scm_ref": "jdk-11.0.22+7",
                     "distribution": "microsoft",
-                    "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/july-2023-psu-tap-final/jdk11_macos_x64.zip"
+                    "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/aqa-january-2024-tap/macOS-x64-JDK11.zip"
                 },
                 {
                     "os": "windows",
@@ -84,7 +84,7 @@
                     "timestamp": "2024-01-31T09:00:00Z",
                     "openjdk_scm_ref": "jdk-11.0.22+7",
                     "distribution": "microsoft",
-                    "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/july-2023-psu-tap-final/jdk11_windows_x64.zip"
+                    "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/aqa-january-2024-tap/windows-x64-JDK11.zip"
                 },
                 {
                     "os": "windows",
@@ -109,7 +109,7 @@
                     "timestamp": "2024-01-31T09:00:00Z",
                     "openjdk_scm_ref": "jdk-11.0.22+7",
                     "distribution": "microsoft",
-                    "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/july-2023-psu-tap-final/jdk11_windows_aarch64.zip"
+                    "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/aqa-january-2024-tap/windows-aarch64-JDK11.zip"
                 },
                 {
                     "os": "linux",
@@ -126,7 +126,7 @@
                     "timestamp": "2024-01-31T09:00:00Z",
                     "openjdk_scm_ref": "jdk-11.0.22+7",
                     "distribution": "microsoft",
-                    "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/july-2023-psu-tap-final/jdk11_linux_aarch64.zip"
+                    "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/aqa-january-2024-tap/linux-aarch64-JDK11.zip"
                 },
                 {
                     "os": "mac",
@@ -151,7 +151,7 @@
                     "timestamp": "2024-01-31T09:00:00Z",
                     "openjdk_scm_ref": "jdk-11.0.22+7",
                     "distribution": "microsoft",
-                    "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/july-2023-psu-tap-final/jdk11_macos_aarch64.zip"
+                    "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/aqa-january-2024-tap/macOS-aarch64-JDK11.zip"
                 }
             ]
         }
