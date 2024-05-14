@@ -1,0 +1,159 @@
+{
+    "releases": [
+        {
+            "release_name": "jdk-11.0.23+9",
+            "last_updated_timestamp": "2024-05-14T09:00:00Z",
+            "vendor": "microsoft",
+            "openjdk_version_data": {
+                "major": 11,
+                "minor": 0,
+                "security": 23,
+                "patch": 0,
+                "pre": null,
+                "build": 9,
+                "optional": null,
+                "openjdk_version": "11.0.23+9"
+            },
+            "source": {
+                "name": "microsoft-sources-jdk-11.0.23_9-all-noarch.tar.gz",
+                "link": "https://aka.ms/download-jdk/microsoft-sources-11.0.23_9-all-noarch.tar.gz"
+            },
+            "binaries": [
+                {
+                    "os": "linux",
+                    "architecture": "x64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "microsoft-jdk-11.0.23-linux-x64.tar.gz",
+                        "link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.23-linux-x64.tar.gz",
+                        "sha256sum": "be22268ac403112dc3fa785e5d8ae92e16a657e1d95f0bf21a2705e5420038b7",
+                        "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.23-linux-x64.tar.gz.sha256sum.txt",
+                        "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.23-linux-x64.tar.gz.sig"
+                    },
+                    "timestamp": "2024-05-14T09:00:00Z",
+                    "openjdk_scm_ref": "jdk-11.0.23+9",
+                    "distribution": "microsoft",
+                    "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/aqa-apr-2024-tap/linux-x64-JDK11.zip"
+                },
+                {
+                    "os": "mac",
+                    "architecture": "x64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "microsoft-jdk-11.0.23-macos-x64.tar.gz",
+                        "link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.23-macos-x64.tar.gz",
+                        "sha256sum": "2234a37249f4235c9096a9c18b85d5bb80a052295e9b4f068f866692dc8249eb",
+                        "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.23-macos-x64.tar.gz.sha256sum.txt",
+                        "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.23-macos-x64.tar.gz.sig"
+                    },
+                    "installer": [
+                        {
+                            "name": "microsoft-jdk-11.0.23-macos-x64.pkg",
+                            "link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.23-macos-x64.pkg",
+                            "sha256sum": "8f01ddce9fbecf7905807314ff9e74659b565e44df209726d432c1d9c93b3a9f",
+                            "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.23-macos-x64.pkg.sha256sum.txt"
+                        }
+                    ],
+                    "timestamp": "2024-05-14T09:00:00Z",
+                    "openjdk_scm_ref": "jdk-11.0.23+9",
+                    "distribution": "microsoft",
+                    "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/aqa-apr-2024-tap/macOS-x64-JDK11.zip"
+                },
+                {
+                    "os": "windows",
+                    "architecture": "x64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "microsoft-jdk-11.0.23-windows-x64.zip",
+                        "link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.23-windows-x64.zip",
+                        "sha256sum": "de4a24119198b6204ddb1cf3b88a37726f23322974e1cfa37bcaa999a8252c6b",
+                        "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.23-windows-x64.zip.sha256sum.txt",
+                        "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.23-windows-x64.zip.sig"
+                    },
+                    "installer": [
+                        {
+                            "name": "microsoft-jdk-11.0.23-windows-x64.msi",
+                            "link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.23-windows-x64.msi",
+                            "sha256sum": "6e1810b106792242a95d25e95e3e79f9522f9c88b4d6b5d74fe8950dda951801",
+                            "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.23-windows-x64.msi.sha256sum.txt"
+                        }
+                    ],
+                    "timestamp": "2024-05-14T09:00:00Z",
+                    "openjdk_scm_ref": "jdk-11.0.23+9",
+                    "distribution": "microsoft",
+                    "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/aqa-apr-2024-tap/windows-x64-JDK11.zip"
+                },
+                {
+                    "os": "windows",
+                    "architecture": "aarch64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "microsoft-jdk-11.0.23-windows-aarch64.zip",
+                        "link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.23-windows-aarch64.zip",
+                        "sha256sum": "1a64a20ec6f9cde84b1d8fdde887a16bbefb62f89595d83abed5eb73fee9eb78",
+                        "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.23-windows-aarch64.zip.sha256sum.txt",
+                        "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.23-windows-aarch64.zip.sig"
+                    },
+                    "installer": [
+                        {
+                            "name": "microsoft-jdk-11.0.23-windows-aarch64.msi",
+                            "link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.23-windows-aarch64.msi",
+                            "sha256sum": "d41b396d62e548d9280dab8905200e92b75d4205df7ddd72f27e3c1fb7eef170",
+                            "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.23-windows-aarch64.msi.sha256sum.txt"
+                        }
+                    ],
+                    "timestamp": "2024-05-14T09:00:00Z",
+                    "openjdk_scm_ref": "jdk-11.0.23+9",
+                    "distribution": "microsoft",
+                    "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/aqa-apr-2024-tap/windows-aarch64-JDK11.zip"
+                },
+                {
+                    "os": "linux",
+                    "architecture": "aarch64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "microsoft-jdk-11.0.23-linux-aarch64.tar.gz",
+                        "link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.23-linux-aarch64.tar.gz",
+                        "sha256sum": "ef084d823f15883884ae89a588b6a5907dc411e5a8a2d8cc9e1737e014e0c343",
+                        "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.23-linux-aarch64.tar.gz.sha256sum.txt",
+                        "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.23-linux-aarch64.tar.gz.sig"
+                    },
+                    "timestamp": "2024-05-14T09:00:00Z",
+                    "openjdk_scm_ref": "jdk-11.0.23+9",
+                    "distribution": "microsoft",
+                    "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/aqa-apr-2024-tap/linux-aarch64-JDK11.zip"
+                },
+                {
+                    "os": "mac",
+                    "architecture": "aarch64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "microsoft-jdk-11.0.23-macos-aarch64.tar.gz",
+                        "link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.23-macos-aarch64.tar.gz",
+                        "sha256sum": "a0d6bceeee9f99eba1756c34da321769ea05df54db101178986bfb2ab452bf34",
+                        "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.23-macos-aarch64.tar.gz.sha256sum.txt",
+                        "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.23-macos-aarch64.tar.gz.sig"
+                    },
+                    "installer": [
+                        {
+                            "name": "microsoft-jdk-11.0.23-macos-aarch64.pkg",
+                            "link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.23-macos-aarch64.pkg",
+                            "sha256sum": "70425b242f7f2191d13902bab18a367ae9d593ef390f866b89a13b49d2abf70c",
+                            "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.23-macos-aarch64.pkg.sha256sum.txt"
+                        }
+                    ],
+                    "timestamp": "2024-05-14T09:00:00Z",
+                    "openjdk_scm_ref": "jdk-11.0.23+9",
+                    "distribution": "microsoft",
+                    "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/aqa-apr-2024-tap/macOS-aarch64-JDK11.zip"
+                }
+            ]
+        }
+    ]
+}
