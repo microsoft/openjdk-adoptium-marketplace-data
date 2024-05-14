@@ -8,9 +8,9 @@
                 "major": 11,
                 "minor": 0,
                 "security": 22,
-                "patch": 7,
+                "patch": null,
                 "pre": null,
-                "build": 1,
+                "build": 7,
                 "optional": null,
                 "openjdk_version": "11.0.22+7"
             },
