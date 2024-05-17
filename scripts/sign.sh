@@ -45,5 +45,5 @@ for json in $(ls ${content_dir}/*.json); do
     openssl dgst -sha256 -verify "$public_key_file" -signature ${json}.sig $json
 
     # Dump signature to base64 encoded file for human readability
-    cat ${json}.sig | base64 -w 0 > ${json}.sha256.sign
+    cat ${json}.sig | base64 | tr -d '\n' > ${json}.sha256.sign
 done;
