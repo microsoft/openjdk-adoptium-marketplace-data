@@ -34,7 +34,7 @@
                     "timestamp": "2024-07-29T00:00:00Z",
                     "openjdk_scm_ref": "jdk-11.0.24+8",
                     "distribution": "microsoft",
-                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/v1.0.0/jdk11u_linux_x64.zip"
+                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/july-2024-psu-0/jdk11u_linux_x64.zip"
                 },
                 {
                     "os": "mac",
@@ -59,7 +59,7 @@
                     "timestamp": "2024-07-29T00:00:00Z",
                     "openjdk_scm_ref": "jdk-11.0.24+8",
                     "distribution": "microsoft",
-                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/v1.0.0/jdk11u_macOS_x64.zip"
+                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/july-2024-psu-0/jdk11u_macOS_x64.zip"
                 },
                 {
                     "os": "windows",
@@ -84,7 +84,7 @@
                     "timestamp": "2024-07-29T00:00:00Z",
                     "openjdk_scm_ref": "jdk-11.0.24+8",
                     "distribution": "microsoft",
-                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/v1.0.0/jdk11u_windows_x64.zip"
+                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/july-2024-psu-0/jdk11u_windows_x64.zip"
                 },
                 {
                     "os": "windows",
@@ -109,7 +109,7 @@
                     "timestamp": "2024-07-29T00:00:00Z",
                     "openjdk_scm_ref": "jdk-11.0.24+8",
                     "distribution": "microsoft",
-                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/v1.0.0/jdk11u_windows_aarch64.zip"
+                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/july-2024-psu-0/jdk11u_windows_aarch64.zip"
                 },
                 {
                     "os": "linux",
@@ -126,7 +126,7 @@
                     "timestamp": "2024-07-29T00:00:00Z",
                     "openjdk_scm_ref": "jdk-11.0.24+8",
                     "distribution": "microsoft",
-                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/v1.0.0/jdk11u_linux_aarch64.zip"
+                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/july-2024-psu-0/jdk11u_linux_aarch64.zip"
                 },
                 {
                     "os": "mac",
@@ -151,7 +151,7 @@
                     "timestamp": "2024-07-29T00:00:00Z",
                     "openjdk_scm_ref": "jdk-11.0.24+8",
                     "distribution": "microsoft",
-                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/v1.0.0/jdk11u_macOS_aarch64.zip"
+                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/july-2024-psu-0/jdk11u_macOS_aarch64.zip"
                 }
             ]
         }
