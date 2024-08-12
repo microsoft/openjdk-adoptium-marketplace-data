@@ -7,7 +7,7 @@
             "openjdk_version_data": {
                 "major": 17,
                 "minor": 0,
-                "security": 11,
+                "security": 12,
                 "patch": null,
                 "pre": null,
                 "build": 7,
