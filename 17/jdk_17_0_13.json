@@ -34,7 +34,7 @@
                     "timestamp": "2024-05-14T09:00:00Z",
                     "openjdk_scm_ref": "jdk-17.0.13+11",
                     "distribution": "microsoft",
-                    "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/aqa-oct-2024-tap/Linux_x64-jdk17.zip"
+                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/oct-2024-psu/Linux_x64-jdk17.zip"
                 },
                 {
                     "os": "mac",
@@ -59,7 +59,7 @@
                     "timestamp": "2024-05-14T09:00:00Z",
                     "openjdk_scm_ref": "jdk-17.0.13+11",
                     "distribution": "microsoft",
-                    "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/aqa-oct-2024-tap/mac_x64_jdk17.zip"
+                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/oct-2024-psu/mac_x64_jdk17.zip"
                 },
                 {
                     "os": "windows",
@@ -84,7 +84,7 @@
                     "timestamp": "2024-05-14T09:00:00Z",
                     "openjdk_scm_ref": "jdk-17.0.13+11",
                     "distribution": "microsoft",
-                    "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/aqa-oct-2024-tap/windows_x64-JDK17.zip"
+                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/oct-2024-psu/windows_x64-JDK17.zip"
                 },
                 {
                     "os": "windows",
@@ -109,7 +109,7 @@
                     "timestamp": "2024-05-14T09:00:00Z",
                     "openjdk_scm_ref": "jdk-17.0.13+11",
                     "distribution": "microsoft",
-                    "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/aqa-oct-2024-tap/windows-aarch64-JDK17.zip"
+                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/oct-2024-psu/windows-aarch64-JDK17.zip"
                 },
                 {
                     "os": "linux",
@@ -126,7 +126,7 @@
                     "timestamp": "2024-05-14T09:00:00Z",
                     "openjdk_scm_ref": "jdk-17.0.13+11",
                     "distribution": "microsoft",
-                    "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/aqa-oct-2024-tap/Linux_aarch64-JDK17.zip"
+                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/oct-2024-psu/Linux_aarch64-JDK17.zip"
                 },
                 {
                     "os": "mac",
@@ -151,7 +151,7 @@
                     "timestamp": "2024-05-14T09:00:00Z",
                     "openjdk_scm_ref": "jdk-17.0.13+11",
                     "distribution": "microsoft",
-                    "aqavit_results_link": "https://msopenjdkarchive.blob.core.windows.net/aqa-oct-2024-tap/macOS_aarch64-JDK17.zip"
+                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/oct-2024-psu/macOS_aarch64-JDK17.zip"
                 }
             ]
         }
