@@ -7,10 +7,10 @@
             "openjdk_version_data": {
                 "major": 11,
                 "minor": 0,
-                "security": 23,
+                "security": 24,
                 "patch": 0,
                 "pre": null,
-                "build": 9,
+                "build": 8,
                 "optional": null,
                 "openjdk_version": "11.0.24+8"
             },
