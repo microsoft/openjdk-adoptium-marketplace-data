@@ -2,7 +2,7 @@
     "releases": [
         {
             "release_name": "jdk-11.0.24+8",
-            "last_updated_timestamp": "2024-07-29T00:00:00Z",
+            "last_updated_timestamp": "2024-11-04T09:00:00Z",
             "vendor": "microsoft",
             "openjdk_version_data": {
                 "major": 11,
