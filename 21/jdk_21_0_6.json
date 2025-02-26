@@ -2,7 +2,7 @@
     "releases": [
         {
             "release_name": "jdk-21.0.6+7",
-            "last_updated_timestamp": "2024-11-04T09:00:00Z",
+            "last_updated_timestamp": "2025-02-26T14:00:00Z",
             "vendor": "microsoft",
             "openjdk_version_data": {
                 "major": 21,
@@ -27,11 +27,11 @@
                     "package": {
                         "name": "microsoft-jdk-21.0.6-linux-x64.tar.gz",
                         "link": "https://aka.ms/download-jdk/microsoft-jdk-21.0.6-linux-x64.tar.gz",
-                        "sha256sum": "0d42a80dbc92f2f112e6db3b4b9bd278c0776a73b6050812e720230813487ebd",
+                        "sha256sum": "701b98a494a220ee5ff144f507b1c820726d9fac4e4a1ac5f30b1ab91deb2a3a",
                         "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-21.0.6-linux-x64.tar.gz.sha256sum.txt",
                         "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-21.0.6-linux-x64.tar.gz.sig"
                     },
-                    "timestamp": "2024-11-04T09:00:00Z",
+                    "timestamp": "2025-02-26T14:00:00Z",
                     "openjdk_scm_ref": "jdk-21.0.6+7",
                     "distribution": "microsoft",
                     "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/jan-2025-psu/JDK21-Linux-x64.zip"
@@ -44,7 +44,7 @@
                     "package": {
                         "name": "microsoft-jdk-21.0.6-macOS-x64.tar.gz",
                         "link": "https://aka.ms/download-jdk/microsoft-jdk-21.0.6-macOS-x64.tar.gz",
-                        "sha256sum": "3e2317348141b28203fac39eaa60c14a1b3f1fdb9cfdbcb793eaa4dd5828da6e",
+                        "sha256sum": "72a4be9114ff8fb1830aeccd9dc2cde5eaad685aef9b3869f5d8a1dc9ce40eee",
                         "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-21.0.6-macOS-x64.tar.gz.sha256sum.txt",
                         "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-21.0.6-macOS-x64.tar.gz.sig"
                     },
@@ -52,11 +52,11 @@
                         {
                             "name": "microsoft-jdk-21.0.6-macOS-x64.pkg",
                             "link": "https://aka.ms/download-jdk/microsoft-jdk-21.0.6-macOS-x64.pkg",
-                            "sha256sum": "f40d643e96bb38ea6aa536774b4ca06898504c936948ac67c8e37ac2dac02ee3",
+                            "sha256sum": "847c375b22936d32f085fd58c3fa19e5bde830a0c48e831e1af65095584bf170",
                             "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-21.0.6-macOS-x64.pkg.sha256sum.txt"
                         }
                     ],
-                    "timestamp": "2024-11-04T09:00:00Z",
+                    "timestamp": "2025-02-26T14:00:00Z",
                     "openjdk_scm_ref": "jdk-21.0.6+7",
                     "distribution": "microsoft",
                     "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/jan-2025-psu/JDK21-macOS-x64_jdk21.zip"
@@ -69,7 +69,7 @@
                     "package": {
                         "name": "microsoft-jdk-21.0.6-windows-x64.zip",
                         "link": "https://aka.ms/download-jdk/microsoft-jdk-21.0.6-windows-x64.zip",
-                        "sha256sum": "12e42c2c572a111f38e2a9e044afc50dbdac850349a4d4bb26808ed33119a9cd",
+                        "sha256sum": "fa8f1eb53e9062895dcf7547abb22d7a96db40e1be1565bc3a61c2e399dbda03",
                         "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-21.0.6-windows-x64.zip.sha256sum.txt",
                         "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-21.0.6-windows-x64.zip.sig"
                     },
@@ -77,11 +77,11 @@
                         {
                             "name": "microsoft-jdk-21.0.6-windows-x64.msi",
                             "link": "https://aka.ms/download-jdk/microsoft-jdk-21.0.6-windows-x64.msi",
-                            "sha256sum": "dfdf76c109ea08ce34df0f616fbc6bead12b3342e3e4102409835690dbec899d",
+                            "sha256sum": "5886c09e68ee2a8ebc0529aff76600d9644dce5190773d2ee01fea1e4636de57",
                             "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-21.0.6-windows-x64.msi.sha256sum.txt"
                         }
                     ],
-                    "timestamp": "2024-11-04T09:00:00Z",
+                    "timestamp": "2025-02-26T14:00:00Z",
                     "openjdk_scm_ref": "jdk-21.0.6+7",
                     "distribution": "microsoft",
                     "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/jan-2025-psu/JDK21-Win-x64.zip"
@@ -94,7 +94,7 @@
                     "package": {
                         "name": "microsoft-jdk-21.0.6-windows-aarch64.zip",
                         "link": "https://aka.ms/download-jdk/microsoft-jdk-21.0.6-windows-aarch64.zip",
-                        "sha256sum": "5eaa375659c543a5d3310d51004e3bdc290ff9e48e9bcd29187dfafeca97c2a4",
+                        "sha256sum": "a612be6b689b4906fa1825e522c2c58b9598e9a8ae93226b62a9bfeb90bbad79",
                         "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-21.0.6-windows-aarch64.zip.sha256sum.txt",
                         "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-21.0.6-windows-aarch64.zip.sig"
                     },
@@ -102,11 +102,11 @@
                         {
                             "name": "microsoft-jdk-21.0.6-windows-aarch64.msi",
                             "link": "https://aka.ms/download-jdk/microsoft-jdk-21.0.6-windows-aarch64.msi",
-                            "sha256sum": "3c092b43c214d8d393e8d3b5369c23eb14a5646d6c2980762cb8261ffac107ea",
+                            "sha256sum": "0b664aa355dcc8573795780e1488328a2a613eca566f9c4ef3c9471cf19fd82a",
                             "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-21.0.6-windows-aarch64.msi.sha256sum.txt"
                         }
                     ],
-                    "timestamp": "2024-11-04T09:00:00Z",
+                    "timestamp": "2025-02-26T14:00:00Z",
                     "openjdk_scm_ref": "jdk-21.0.6+7",
                     "distribution": "microsoft",
                     "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/jan-2025-psu/JDK21-Windows-aarch64.zip"
@@ -119,11 +119,11 @@
                     "package": {
                         "name": "microsoft-jdk-21.0.6-linux-aarch64.tar.gz",
                         "link": "https://aka.ms/download-jdk/microsoft-jdk-21.0.6-linux-aarch64.tar.gz",
-                        "sha256sum": "356844fe544085b00cd73935e0c7a4c534f286799728fa6d6e996d1cb8b1a682",
+                        "sha256sum": "136096968e2ae1c937d26be2436e829ec6375a744e96caffb442a758fafae92d",
                         "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-21.0.6-linux-aarch64.tar.gz.sha256sum.txt",
                         "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-21.0.6-linux-aarch64.tar.gz.sig"
                     },
-                    "timestamp": "2024-11-04T09:00:00Z",
+                    "timestamp": "2025-02-26T14:00:00Z",
                     "openjdk_scm_ref": "jdk-21.0.6+7",
                     "distribution": "microsoft",
                     "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/jan-2025-psu/JDK21-Linux-aarch64.zip"
@@ -136,7 +136,7 @@
                     "package": {
                         "name": "microsoft-jdk-21.0.6-macOS-aarch64.tar.gz",
                         "link": "https://aka.ms/download-jdk/microsoft-jdk-21.0.6-macOS-aarch64.tar.gz",
-                        "sha256sum": "78aa915475b426c03059cc51e9c12596a5138457bd7ebb9b90daad119551662d",
+                        "sha256sum": "c277969b6b9021179e1e356d03e91f59333699e776ede58b66c99fb39fec6c43",
                         "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-21.0.6-macOS-aarch64.tar.gz.sha256sum.txt",
                         "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-21.0.6-macOS-aarch64.tar.gz.sig"
                     },
@@ -144,11 +144,11 @@
                         {
                             "name": "microsoft-jdk-21.0.6-macOS-aarch64.pkg",
                             "link": "https://aka.ms/download-jdk/microsoft-jdk-21.0.6-macOS-aarch64.pkg",
-                            "sha256sum": "c267aaac9316617fac4bfb712781a319b886959b2cb978eeb7833465d8b2b412",
+                            "sha256sum": "0b27b1f0ac144cab4c29d322b9fea05fabf4ac711d05d721735797f456771008",
                             "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-21.0.6-macOS-aarch64.pkg.sha256sum.txt"
                         }
                     ],
-                    "timestamp": "2024-11-04T09:00:00Z",
+                    "timestamp": "2025-02-26T14:00:00Z",
                     "openjdk_scm_ref": "jdk-21.0.6+7",
                     "distribution": "microsoft",
                     "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/jan-2025-psu/JDK21-macOS-aarch64.zip"
