@@ -84,7 +84,7 @@
                     "timestamp": "2025-02-26T13:00:00Z",
                     "openjdk_scm_ref": "jdk-11.0.26+4",
                     "distribution": "microsoft",
-                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/jan-2025-psu/JDK11-windows-x64.zip"
+                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/jan-2025-psu/JDK11-Windows-x64.zip"
                 },
                 {
                     "os": "windows",

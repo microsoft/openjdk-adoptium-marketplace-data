@@ -84,7 +84,7 @@
                     "timestamp": "2025-02-26T14:00:00Z",
                     "openjdk_scm_ref": "jdk-21.0.6+7",
                     "distribution": "microsoft",
-                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/jan-2025-psu/JDK21-Win-x64.zip"
+                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/jan-2025-psu/JDK21-Windows-x64.zip"
                 },
                 {
                     "os": "windows",
