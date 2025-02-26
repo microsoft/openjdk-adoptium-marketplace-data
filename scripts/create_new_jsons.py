@@ -30,7 +30,7 @@ from pathlib import Path
 from typing import Tuple
 import requests
 
-from docopt import docopt  # type: ignore
+from docopt import docopt
 
 logging.basicConfig(format="%(message)s", level=logging.DEBUG)
 logger = logging.getLogger(__name__)
