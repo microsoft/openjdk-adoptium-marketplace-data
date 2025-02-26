@@ -41,7 +41,8 @@ def create_new_json_file(
     folder: str,
     new_version: str,
 ) -> str:
-    """Create a new JSON file based on an existing one.
+    """
+    Create a new JSON file based on an existing one.
     Args:
         folder (str): The folder containing the JSON files.
         new_version (str): The new version to be added.
@@ -85,7 +86,8 @@ def update_new_json_info(
     version: str,
     file_path: str,
 ) -> Tuple[str, str]:
-    """Update the JSON file with new version information.
+    """
+    Update the JSON file with new version information.
     Args:
         version (str):      The new version to be added.
         file_path (str):    The path to the new JSON file.
@@ -140,7 +142,8 @@ def update_new_json_full_versions(
     old_psu_tag: str,
     file_path: str,
 ):
-    """Update the full version numbers in the new JSON file.
+    """
+    Update the full version numbers in the new JSON file.
     Args:
         version (str): The new version to be added.
         old_version (str): The version from the most resent JSON file.
@@ -179,6 +182,11 @@ def update_new_json_full_versions(
 def update_shasum(
     entry: dict,
 ):
+    """
+    Update the shasum for a given entry.
+    Args:
+        entry (dict): The entry wit a shasum that needs updating.
+    """
     logger.info(f"Updating shasum for: {entry}")
     download_link = entry["sha256sum_link"]
 
@@ -203,7 +211,8 @@ def update_shasum(
 def update_all_shasums(
     file_path: str,
 ):
-    """Update the shasums in the new JSON file.
+    """
+    Update the shasums in the new JSON file.
     Args:
         file_path (str): The path to the new JSON file.
     """
