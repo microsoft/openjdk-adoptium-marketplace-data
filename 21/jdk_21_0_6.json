@@ -16,7 +16,7 @@
             },
             "source": {
                 "name": "microsoft-sources-21.0.6_7-all-noarch.tar.gz",
-                "link": "https://aka.ms/download-jdk/microsoft-sources-21.0.6_7-all-noarch.tar.gz"
+                "link": "https://github.com/microsoft/openjdk-jdk21u/archive/refs/heads/release/jdk-21.0.6_7.tar.gz"
             },
             "binaries": [
                 {

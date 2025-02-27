@@ -16,7 +16,7 @@
             },
             "source": {
                 "name": "microsoft-sources-11.0.26_4-all-noarch.tar.gz",
-                "link": "https://aka.ms/download-jdk/microsoft-sources-11.0.26_4-all-noarch.tar.gz"
+                "link": "https://github.com/microsoft/openjdk-jdk11u/archive/refs/heads/release/jdk-11.0.26_4.tar.gz"
             },
             "binaries": [
                 {

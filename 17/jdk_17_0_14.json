@@ -16,7 +16,7 @@
             },
             "source": {
                 "name": "microsoft-sources-17.0.14_7-all-noarch.tar.gz",
-                "link": "https://aka.ms/download-jdk/microsoft-sources-17.0.14_7-all-noarch.tar.gz"
+                "link": "https://github.com/microsoft/openjdk-jdk17u/archive/refs/heads/release/jdk-17.0.14_7.tar.gz"
             },
             "binaries": [
                 {
