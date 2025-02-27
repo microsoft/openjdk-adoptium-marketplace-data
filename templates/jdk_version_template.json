@@ -42,24 +42,24 @@
                     "image_type": "jdk",
                     "jvm_impl": "hotspot",
                     "package": {
-                        "name": "microsoft-jdk-{{ major }}.{{ minor }}.{{ security }}-macOS-x64.tar.gz",
-                        "link": "https://aka.ms/download-jdk/microsoft-jdk-{{ major }}.{{ minor }}.{{ security }}-macOS-x64.tar.gz",
+                        "name": "microsoft-jdk-{{ major }}.{{ minor }}.{{ security }}-macos-x64.tar.gz",
+                        "link": "https://aka.ms/download-jdk/microsoft-jdk-{{ major }}.{{ minor }}.{{ security }}-macos-x64.tar.gz",
                         "sha256sum": "<TO_BE_REPLACED>",
-                        "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-{{ major }}.{{ minor }}.{{ security }}-macOS-x64.tar.gz.sha256sum.txt",
-                        "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-{{ major }}.{{ minor }}.{{ security }}-macOS-x64.tar.gz.sig"
+                        "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-{{ major }}.{{ minor }}.{{ security }}-macos-x64.tar.gz.sha256sum.txt",
+                        "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-{{ major }}.{{ minor }}.{{ security }}-macos-x64.tar.gz.sig"
                     },
                     "installer": [
                         {
-                            "name": "microsoft-jdk-{{ major }}.{{ minor }}.{{ security }}-macOS-x64.pkg",
-                            "link": "https://aka.ms/download-jdk/microsoft-jdk-{{ major }}.{{ minor }}.{{ security }}-macOS-x64.pkg",
+                            "name": "microsoft-jdk-{{ major }}.{{ minor }}.{{ security }}-macos-x64.pkg",
+                            "link": "https://aka.ms/download-jdk/microsoft-jdk-{{ major }}.{{ minor }}.{{ security }}-macos-x64.pkg",
                             "sha256sum": "<TO_BE_REPLACED>",
-                            "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-{{ major }}.{{ minor }}.{{ security }}-macOS-x64.pkg.sha256sum.txt"
+                            "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-{{ major }}.{{ minor }}.{{ security }}-macos-x64.pkg.sha256sum.txt"
                         }
                     ],
                     "timestamp": "{{ timestamp }}",
                     "openjdk_scm_ref": "jdk-{{ major }}.{{ minor }}.{{ security }}+{{ build }}",
                     "distribution": "microsoft",
-                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/{{ psu_tag }}/JDK{{ major }}-macOS-x64.zip"
+                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/{{ psu_tag }}/JDK{{ major }}-macos-x64.zip"
                 },
                 {
                     "os": "windows",
@@ -134,24 +134,24 @@
                     "image_type": "jdk",
                     "jvm_impl": "hotspot",
                     "package": {
-                        "name": "microsoft-jdk-{{ major }}.{{ minor }}.{{ security }}-macOS-aarch64.tar.gz",
-                        "link": "https://aka.ms/download-jdk/microsoft-jdk-{{ major }}.{{ minor }}.{{ security }}-macOS-aarch64.tar.gz",
+                        "name": "microsoft-jdk-{{ major }}.{{ minor }}.{{ security }}-macos-aarch64.tar.gz",
+                        "link": "https://aka.ms/download-jdk/microsoft-jdk-{{ major }}.{{ minor }}.{{ security }}-macos-aarch64.tar.gz",
                         "sha256sum": "<TO_BE_REPLACED>",
-                        "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-{{ major }}.{{ minor }}.{{ security }}-macOS-aarch64.tar.gz.sha256sum.txt",
-                        "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-{{ major }}.{{ minor }}.{{ security }}-macOS-aarch64.tar.gz.sig"
+                        "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-{{ major }}.{{ minor }}.{{ security }}-macos-aarch64.tar.gz.sha256sum.txt",
+                        "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-{{ major }}.{{ minor }}.{{ security }}-macos-aarch64.tar.gz.sig"
                     },
                     "installer": [
                         {
-                            "name": "microsoft-jdk-{{ major }}.{{ minor }}.{{ security }}-macOS-aarch64.pkg",
-                            "link": "https://aka.ms/download-jdk/microsoft-jdk-{{ major }}.{{ minor }}.{{ security }}-macOS-aarch64.pkg",
+                            "name": "microsoft-jdk-{{ major }}.{{ minor }}.{{ security }}-macos-aarch64.pkg",
+                            "link": "https://aka.ms/download-jdk/microsoft-jdk-{{ major }}.{{ minor }}.{{ security }}-macos-aarch64.pkg",
                             "sha256sum": "<TO_BE_REPLACED>",
-                            "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-{{ major }}.{{ minor }}.{{ security }}-macOS-aarch64.pkg.sha256sum.txt"
+                            "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-{{ major }}.{{ minor }}.{{ security }}-macos-aarch64.pkg.sha256sum.txt"
                         }
                     ],
                     "timestamp": "{{ timestamp }}",
                     "openjdk_scm_ref": "jdk-{{ major }}.{{ minor }}.{{ security }}+{{ build }}",
                     "distribution": "microsoft",
-                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/{{ psu_tag }}/JDK{{ major }}-macOS-aarch64.zip"
+                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/{{ psu_tag }}/JDK{{ major }}-macos-aarch64.zip"
                 }
             ]
         }
