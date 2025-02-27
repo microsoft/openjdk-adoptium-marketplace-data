@@ -46,11 +46,11 @@ Optional input:
 ## Usage
 To run the script, `cd` into the `scripts` folder and use the following command:
 ```
-python create_new_jsons --folder=<str> --new_version=<str> --psu_tag=<str>
+python create_new_jsons.py --folder=<str> --new_version=<str> --psu_tag=<str>
 ```
 Example:
 ```
-python create_new_jsons --folder=../11 --new_version=11.0.26+4 --psu_tag=jan-2025-psu
+python create_new_jsons.py --folder=../11 --new_version=11.0.26+4 --psu_tag=jan-2025-psu
 ```
 
 **Dependencies**:
