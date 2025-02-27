@@ -1,4 +1,4 @@
-"""create_new_jsons
+"""create_marketplace_json
 
 This script is used to create new json entries for new psu versions.
 This script will also update json indexes for the new psu versions.
@@ -11,7 +11,7 @@ Requirements:
     1. python 3.8 and higher
 
 Usage:
-  create_new_jsons --folder=<str> --new_version=<str> --psu_tag=<str>
+  create_marketplace_json --folder=<str> --new_version=<str> --psu_tag=<str>
 
 Options:
     --folder=<str>          Folder containing the json files
@@ -19,7 +19,7 @@ Options:
     --psu_tag=<str>         Tag for the new version
     --help                  Show this help message
 Example:
-  create_new_jsons --folder=../11 --new_version=11.0.26+4 --psu_tag=jan-2025-psu
+  create_marketplace_json --folder=../11 --new_version=11.0.26+4 --psu_tag=jan-2025-psu
 """
 
 import json

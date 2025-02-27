@@ -26,7 +26,7 @@ $./sign.sh --directory ../11 --public-key <path/to/public_key.pem> --secret-key 
 - openssl
 - base64
 
-## create_new_jsons.py
+## create_marketplace_json.py
 This is a Python script designed to generate new JSON file entries for new PSUs.
 This script will also update the index.json files to include references to these new files.
 
@@ -46,11 +46,11 @@ Optional input:
 ## Usage
 To run the script, `cd` into the `scripts` folder and use the following command:
 ```
-python create_new_jsons.py --folder=<str> --new_version=<str> --psu_tag=<str>
+python create_marketplace_json.py --folder=<str> --new_version=<str> --psu_tag=<str>
 ```
 Example:
 ```
-python create_new_jsons.py --folder=../11 --new_version=11.0.26+4 --psu_tag=jan-2025-psu
+python create_marketplace_json.py --folder=../11 --new_version=11.0.26+4 --psu_tag=jan-2025-psu
 ```
 
 **Dependencies**:
