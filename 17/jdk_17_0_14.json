@@ -2,7 +2,7 @@
     "releases": [
         {
             "release_name": "jdk-17.0.14+7",
-            "last_updated_timestamp": "2025-02-26T14:00:00Z",
+            "last_updated_timestamp": "2025-02-26T16:00:00Z",
             "vendor": "microsoft",
             "openjdk_version_data": {
                 "major": 17,
@@ -16,7 +16,7 @@
             },
             "source": {
                 "name": "microsoft-sources-17.0.14_7-all-noarch.tar.gz",
-                "link": "https://aka.ms/download-jdk/microsoft-sources-17.0.14_7-all-noarch.tar.gz"
+                "link": "https://github.com/microsoft/openjdk-jdk17u/archive/refs/heads/release/jdk-17.0.14_7.tar.gz"
             },
             "binaries": [
                 {
@@ -31,7 +31,7 @@
                         "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.14-linux-x64.tar.gz.sha256sum.txt",
                         "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.14-linux-x64.tar.gz.sig"
                     },
-                    "timestamp": "2025-02-26T14:00:00Z",
+                    "timestamp": "2025-02-26T16:00:00Z",
                     "openjdk_scm_ref": "jdk-17.0.14+7",
                     "distribution": "microsoft",
                     "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/jan-2025-psu/JDK17-Linux-x64.zip"
@@ -42,24 +42,24 @@
                     "image_type": "jdk",
                     "jvm_impl": "hotspot",
                     "package": {
-                        "name": "microsoft-jdk-17.0.14-macOS-x64.tar.gz",
-                        "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.14-macOS-x64.tar.gz",
+                        "name": "microsoft-jdk-17.0.14-macos-x64.tar.gz",
+                        "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.14-macos-x64.tar.gz",
                         "sha256sum": "c0d677165073b08f765982d8bb20c08db03933c79ab269103150f88805c93e6e",
-                        "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.14-macOS-x64.tar.gz.sha256sum.txt",
-                        "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.14-macOS-x64.tar.gz.sig"
+                        "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.14-macos-x64.tar.gz.sha256sum.txt",
+                        "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.14-macos-x64.tar.gz.sig"
                     },
                     "installer": [
                         {
-                            "name": "microsoft-jdk-17.0.14-macOS-x64.pkg",
-                            "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.14-macOS-x64.pkg",
+                            "name": "microsoft-jdk-17.0.14-macos-x64.pkg",
+                            "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.14-macos-x64.pkg",
                             "sha256sum": "4dfdac94ce0d6797fac0819998bbd11f6523bce26468011a86bdd3e64651d1f6",
-                            "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.14-macOS-x64.pkg.sha256sum.txt"
+                            "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.14-macos-x64.pkg.sha256sum.txt"
                         }
                     ],
-                    "timestamp": "2025-02-26T14:00:00Z",
+                    "timestamp": "2025-02-26T16:00:00Z",
                     "openjdk_scm_ref": "jdk-17.0.14+7",
                     "distribution": "microsoft",
-                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/jan-2025-psu/JDK17-macOS-x64_jdk17.zip"
+                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/jan-2025-psu/JDK17-macos-x64.zip"
                 },
                 {
                     "os": "windows",
@@ -81,7 +81,7 @@
                             "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.14-windows-x64.msi.sha256sum.txt"
                         }
                     ],
-                    "timestamp": "2025-02-26T14:00:00Z",
+                    "timestamp": "2025-02-26T16:00:00Z",
                     "openjdk_scm_ref": "jdk-17.0.14+7",
                     "distribution": "microsoft",
                     "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/jan-2025-psu/JDK17-Windows-x64.zip"
@@ -106,7 +106,7 @@
                             "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.14-windows-aarch64.msi.sha256sum.txt"
                         }
                     ],
-                    "timestamp": "2025-02-26T14:00:00Z",
+                    "timestamp": "2025-02-26T16:00:00Z",
                     "openjdk_scm_ref": "jdk-17.0.14+7",
                     "distribution": "microsoft",
                     "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/jan-2025-psu/JDK17-Windows-aarch64.zip"
@@ -123,7 +123,7 @@
                         "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.14-linux-aarch64.tar.gz.sha256sum.txt",
                         "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.14-linux-aarch64.tar.gz.sig"
                     },
-                    "timestamp": "2025-02-26T14:00:00Z",
+                    "timestamp": "2025-02-26T16:00:00Z",
                     "openjdk_scm_ref": "jdk-17.0.14+7",
                     "distribution": "microsoft",
                     "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/jan-2025-psu/JDK17-Linux-aarch64.zip"
@@ -134,24 +134,24 @@
                     "image_type": "jdk",
                     "jvm_impl": "hotspot",
                     "package": {
-                        "name": "microsoft-jdk-17.0.14-macOS-aarch64.tar.gz",
-                        "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.14-macOS-aarch64.tar.gz",
+                        "name": "microsoft-jdk-17.0.14-macos-aarch64.tar.gz",
+                        "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.14-macos-aarch64.tar.gz",
                         "sha256sum": "1c00394d83edb32275d98463d64184c33a4ee3ddd89aa5b0762289a9ab3277ec",
-                        "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.14-macOS-aarch64.tar.gz.sha256sum.txt",
-                        "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.14-macOS-aarch64.tar.gz.sig"
+                        "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.14-macos-aarch64.tar.gz.sha256sum.txt",
+                        "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.14-macos-aarch64.tar.gz.sig"
                     },
                     "installer": [
                         {
-                            "name": "microsoft-jdk-17.0.14-macOS-aarch64.pkg",
-                            "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.14-macOS-aarch64.pkg",
+                            "name": "microsoft-jdk-17.0.14-macos-aarch64.pkg",
+                            "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.14-macos-aarch64.pkg",
                             "sha256sum": "b91a8ccfc227ecdda877b77db33788384370e78938347bdbbaa46fa9590e3d12",
-                            "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.14-macOS-aarch64.pkg.sha256sum.txt"
+                            "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.14-macos-aarch64.pkg.sha256sum.txt"
                         }
                     ],
-                    "timestamp": "2025-02-26T14:00:00Z",
+                    "timestamp": "2025-02-26T16:00:00Z",
                     "openjdk_scm_ref": "jdk-17.0.14+7",
                     "distribution": "microsoft",
-                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/jan-2025-psu/JDK17-macOS-aarch64.zip"
+                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/jan-2025-psu/JDK17-macos-aarch64.zip"
                 }
             ]
         }
