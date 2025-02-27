@@ -1,0 +1,6 @@
+docopt
+types-docopt
+types-requests
+requests
+datetime
+Jinja2
