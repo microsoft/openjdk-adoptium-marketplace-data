@@ -2,7 +2,7 @@
     "releases": [
         {
             "release_name": "jdk-11.0.27+6",
-            "last_updated_timestamp": "2025-05-08T10:00:00Z",
+            "last_updated_timestamp": "2025-05-08T11:00:00Z",
             "vendor": "microsoft",
             "openjdk_version_data": {
                 "major": 11,
@@ -31,10 +31,10 @@
                         "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.27-linux-x64.tar.gz.sha256sum.txt",
                         "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.27-linux-x64.tar.gz.sig"
                     },
-                    "timestamp": "2025-05-08T10:00:00Z",
+                    "timestamp": "2025-05-08T11:00:00Z",
                     "openjdk_scm_ref": "jdk-11.0.27+6",
                     "distribution": "microsoft",
-                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/aqa-apr-2025-tap/jdk11-linux-x64.zip"
+                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/apr-2025-psu/jdk11-linux-x64.zip"
                 },
                 {
                     "os": "mac",
@@ -56,10 +56,10 @@
                             "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.27-macos-x64.pkg.sha256sum.txt"
                         }
                     ],
-                    "timestamp": "2025-05-08T10:00:00Z",
+                    "timestamp": "2025-05-08T11:00:00Z",
                     "openjdk_scm_ref": "jdk-11.0.27+6",
                     "distribution": "microsoft",
-                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/aqa-apr-2025-tap/jdk11-macos-x64.zip"
+                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/apr-2025-psu/jdk11-macos-x64.zip"
                 },
                 {
                     "os": "windows",
@@ -81,10 +81,10 @@
                             "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.27-windows-x64.msi.sha256sum.txt"
                         }
                     ],
-                    "timestamp": "2025-05-08T10:00:00Z",
+                    "timestamp": "2025-05-08T11:00:00Z",
                     "openjdk_scm_ref": "jdk-11.0.27+6",
                     "distribution": "microsoft",
-                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/aqa-apr-2025-tap/jdk11-windows-x64.zip"
+                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/apr-2025-psu/jdk11-windows-x64.zip"
                 },
                 {
                     "os": "windows",
@@ -106,10 +106,10 @@
                             "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.27-windows-aarch64.msi.sha256sum.txt"
                         }
                     ],
-                    "timestamp": "2025-05-08T10:00:00Z",
+                    "timestamp": "2025-05-08T11:00:00Z",
                     "openjdk_scm_ref": "jdk-11.0.27+6",
                     "distribution": "microsoft",
-                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/aqa-apr-2025-tap/jdk11-windows-aarch64.zip"
+                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/apr-2025-psu/jdk11-windows-aarch64.zip"
                 },
                 {
                     "os": "linux",
@@ -123,10 +123,10 @@
                         "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.27-linux-aarch64.tar.gz.sha256sum.txt",
                         "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.27-linux-aarch64.tar.gz.sig"
                     },
-                    "timestamp": "2025-05-08T10:00:00Z",
+                    "timestamp": "2025-05-08T11:00:00Z",
                     "openjdk_scm_ref": "jdk-11.0.27+6",
                     "distribution": "microsoft",
-                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/aqa-apr-2025-tap/jdk11-linux-aarch64.zip"
+                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/apr-2025-psu/jdk11-linux-aarch64.zip"
                 },
                 {
                     "os": "mac",
@@ -148,10 +148,10 @@
                             "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-11.0.27-macos-aarch64.pkg.sha256sum.txt"
                         }
                     ],
-                    "timestamp": "2025-05-08T10:00:00Z",
+                    "timestamp": "2025-05-08T11:00:00Z",
                     "openjdk_scm_ref": "jdk-11.0.27+6",
                     "distribution": "microsoft",
-                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/aqa-apr-2025-tap/jdk11-macos-aarch64.zip"
+                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/apr-2025-psu/jdk11-macos-aarch64.zip"
                 }
             ]
         }
