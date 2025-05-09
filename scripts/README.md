@@ -20,6 +20,7 @@ Example usage:
 $cd scripts/
 $chmod +x sign.sh
 $./sign.sh --directory ../11 --public-key <path/to/public_key.pem> --secret-key <path/to/secret_key.pem>
+# Full example: ./sign.sh --directory ../11 --public-key ../public.pem --secret-key ../private.pem
 ```
 
 **Dependencies**:
