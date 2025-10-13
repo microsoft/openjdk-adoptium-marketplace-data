@@ -1,0 +1,159 @@
+{
+    "releases": [
+        {
+            "release_name": "jdk-25.0.0+36",
+            "last_updated_timestamp": "2025-10-13T13:00:00Z",
+            "vendor": "microsoft",
+            "openjdk_version_data": {
+                "major": 25,
+                "minor": 0,
+                "security": 0,
+                "patch": null,
+                "pre": null,
+                "build": 36,
+                "optional": null,
+                "openjdk_version": "25.0.0+36"
+            },
+            "source": {
+                "name": "microsoft-sources-25.0.0_36-all-noarch.tar.gz",
+                "link": "https://github.com/microsoft/openjdk-jdk25u/archive/refs/heads/release/jdk-25_36.tar.gz"
+            },
+            "binaries": [
+                {
+                    "os": "linux",
+                    "architecture": "x64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "microsoft-jdk-25.0.0-linux-x64.tar.gz",
+                        "link": "https://aka.ms/download-jdk/microsoft-jdk-25.0.0-linux-x64.tar.gz",
+                        "sha256sum": "58a1136a24577b9ed3e09c0b65ce0e41c2a4d2b0802a7a2080057d5a8962aeed",
+                        "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-25.0.0-linux-x64.tar.gz.sha256sum.txt",
+                        "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-25.0.0-linux-x64.tar.gz.sig"
+                    },
+                    "timestamp": "2025-10-13T13:00:00Z",
+                    "openjdk_scm_ref": "jdk-25.0.0+36",
+                    "distribution": "microsoft",
+                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/jdk25-release/jdk25-linux-x64.zip"
+                },
+                {
+                    "os": "mac",
+                    "architecture": "x64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "microsoft-jdk-25.0.0-macos-x64.tar.gz",
+                        "link": "https://aka.ms/download-jdk/microsoft-jdk-25.0.0-macos-x64.tar.gz",
+                        "sha256sum": "256209a8c394a1901f9f5d1fb8c8d7fd07cf12e63edaaae498eb88172d356fa1",
+                        "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-25.0.0-macos-x64.tar.gz.sha256sum.txt",
+                        "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-25.0.0-macos-x64.tar.gz.sig"
+                    },
+                    "installer": [
+                        {
+                            "name": "microsoft-jdk-25.0.0-macos-x64.pkg",
+                            "link": "https://aka.ms/download-jdk/microsoft-jdk-25.0.0-macos-x64.pkg",
+                            "sha256sum": "598204aebe610345d6920ab4ac8eb76b8659ebe5cee54b54102afe4c01c58707",
+                            "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-25.0.0-macos-x64.pkg.sha256sum.txt"
+                        }
+                    ],
+                    "timestamp": "2025-10-13T13:00:00Z",
+                    "openjdk_scm_ref": "jdk-25.0.0+36",
+                    "distribution": "microsoft",
+                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/jdk25-release/jdk25-macos-x64.zip"
+                },
+                {
+                    "os": "windows",
+                    "architecture": "x64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "microsoft-jdk-25.0.0-windows-x64.zip",
+                        "link": "https://aka.ms/download-jdk/microsoft-jdk-25.0.0-windows-x64.zip",
+                        "sha256sum": "f9a3b28ed2788b16892e11e159669bd70f100fea71bd36a15ac59bbcde344b80",
+                        "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-25.0.0-windows-x64.zip.sha256sum.txt",
+                        "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-25.0.0-windows-x64.zip.sig"
+                    },
+                    "installer": [
+                        {
+                            "name": "microsoft-jdk-25.0.0-windows-x64.msi",
+                            "link": "https://aka.ms/download-jdk/microsoft-jdk-25.0.0-windows-x64.msi",
+                            "sha256sum": "e3b54d32ad00869a4268e439c4791b0c4a7b28bdfeec440a2c8064f4b46931c4",
+                            "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-25.0.0-windows-x64.msi.sha256sum.txt"
+                        }
+                    ],
+                    "timestamp": "2025-10-13T13:00:00Z",
+                    "openjdk_scm_ref": "jdk-25.0.0+36",
+                    "distribution": "microsoft",
+                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/jdk25-release/jdk25-windows-x64.zip"
+                },
+                {
+                    "os": "windows",
+                    "architecture": "aarch64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "microsoft-jdk-25.0.0-windows-aarch64.zip",
+                        "link": "https://aka.ms/download-jdk/microsoft-jdk-25.0.0-windows-aarch64.zip",
+                        "sha256sum": "5006e99f9e0e528ec149284a6d443b25f4f006d5d67ac052b4ced4f66fb535a1",
+                        "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-25.0.0-windows-aarch64.zip.sha256sum.txt",
+                        "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-25.0.0-windows-aarch64.zip.sig"
+                    },
+                    "installer": [
+                        {
+                            "name": "microsoft-jdk-25.0.0-windows-aarch64.msi",
+                            "link": "https://aka.ms/download-jdk/microsoft-jdk-25.0.0-windows-aarch64.msi",
+                            "sha256sum": "72cb113b41aa1fc117c8dad9b50dd679fa8395d8ef9aa35c2a2827c46d582e0f",
+                            "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-25.0.0-windows-aarch64.msi.sha256sum.txt"
+                        }
+                    ],
+                    "timestamp": "2025-10-13T13:00:00Z",
+                    "openjdk_scm_ref": "jdk-25.0.0+36",
+                    "distribution": "microsoft",
+                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/jdk25-release/jdk25-windows-aarch64.zip"
+                },
+                {
+                    "os": "linux",
+                    "architecture": "aarch64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "microsoft-jdk-25.0.0-linux-aarch64.tar.gz",
+                        "link": "https://aka.ms/download-jdk/microsoft-jdk-25.0.0-linux-aarch64.tar.gz",
+                        "sha256sum": "c30e30388d17953b9fcc00b99a06fd6b609f41f6abc286538b9584a1942d95ef",
+                        "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-25.0.0-linux-aarch64.tar.gz.sha256sum.txt",
+                        "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-25.0.0-linux-aarch64.tar.gz.sig"
+                    },
+                    "timestamp": "2025-10-13T13:00:00Z",
+                    "openjdk_scm_ref": "jdk-25.0.0+36",
+                    "distribution": "microsoft",
+                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/jdk25-release/jdk25-linux-aarch64.zip"
+                },
+                {
+                    "os": "mac",
+                    "architecture": "aarch64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "microsoft-jdk-25.0.0-macos-aarch64.tar.gz",
+                        "link": "https://aka.ms/download-jdk/microsoft-jdk-25.0.0-macos-aarch64.tar.gz",
+                        "sha256sum": "564bbc735a1337579652c87336bab8281345415c70cfdbb1a583601cfb40d3e3",
+                        "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-25.0.0-macos-aarch64.tar.gz.sha256sum.txt",
+                        "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-25.0.0-macos-aarch64.tar.gz.sig"
+                    },
+                    "installer": [
+                        {
+                            "name": "microsoft-jdk-25.0.0-macos-aarch64.pkg",
+                            "link": "https://aka.ms/download-jdk/microsoft-jdk-25.0.0-macos-aarch64.pkg",
+                            "sha256sum": "84d7fe8d01789485e25663a0e9d616ca5542f2cb6f30f5c8a9beb331d2e19fe4",
+                            "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-25.0.0-macos-aarch64.pkg.sha256sum.txt"
+                        }
+                    ],
+                    "timestamp": "2025-10-13T13:00:00Z",
+                    "openjdk_scm_ref": "jdk-25.0.0+36",
+                    "distribution": "microsoft",
+                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/jdk25-release/jdk25-macos-aarch64.zip"
+                }
+            ]
+        }
+    ]
+}
