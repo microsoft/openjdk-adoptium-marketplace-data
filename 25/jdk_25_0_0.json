@@ -16,7 +16,7 @@
             },
             "source": {
                 "name": "microsoft-sources-25.0.0_36-all-noarch.tar.gz",
-                "link": "https://github.com/microsoft/openjdk-jdk25u/archive/refs/heads/release/jdk-25.0.0_36.tar.gz"
+                "link": "https://github.com/microsoft/openjdk-jdk25u/archive/refs/heads/release/jdk-25_36.tar.gz"
             },
             "binaries": [
                 {
