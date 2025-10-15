@@ -2,6 +2,6 @@
     "schema_version": "1.0.0",
     "indexes": [],
     "releases": [
-        "jdk_25_0_0.json"
+        "jdk_25.json"
     ]
 }
