@@ -1,7 +1,7 @@
 {
     "releases": [
         {
-            "release_name": "jdk-25.0.0+36",
+            "release_name": "jdk-25+36",
             "last_updated_timestamp": "2025-10-13T13:00:00Z",
             "vendor": "microsoft",
             "openjdk_version_data": {
@@ -12,7 +12,7 @@
                 "pre": null,
                 "build": 36,
                 "optional": null,
-                "openjdk_version": "25.0.0+36"
+                "openjdk_version": "25+36"
             },
             "source": {
                 "name": "microsoft-sources-25.0.0_36-all-noarch.tar.gz",
@@ -32,7 +32,7 @@
                         "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-25.0.0-linux-x64.tar.gz.sig"
                     },
                     "timestamp": "2025-10-13T13:00:00Z",
-                    "openjdk_scm_ref": "jdk-25.0.0+36",
+                    "openjdk_scm_ref": "jdk-25+36",
                     "distribution": "microsoft",
                     "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/jdk25-release/jdk25-linux-x64.zip"
                 },
@@ -57,7 +57,7 @@
                         }
                     ],
                     "timestamp": "2025-10-13T13:00:00Z",
-                    "openjdk_scm_ref": "jdk-25.0.0+36",
+                    "openjdk_scm_ref": "jdk-25+36",
                     "distribution": "microsoft",
                     "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/jdk25-release/jdk25-macos-x64.zip"
                 },
@@ -82,7 +82,7 @@
                         }
                     ],
                     "timestamp": "2025-10-13T13:00:00Z",
-                    "openjdk_scm_ref": "jdk-25.0.0+36",
+                    "openjdk_scm_ref": "jdk-25+36",
                     "distribution": "microsoft",
                     "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/jdk25-release/jdk25-windows-x64.zip"
                 },
@@ -107,7 +107,7 @@
                         }
                     ],
                     "timestamp": "2025-10-13T13:00:00Z",
-                    "openjdk_scm_ref": "jdk-25.0.0+36",
+                    "openjdk_scm_ref": "jdk-25+36",
                     "distribution": "microsoft",
                     "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/jdk25-release/jdk25-windows-aarch64.zip"
                 },
@@ -124,7 +124,7 @@
                         "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-25.0.0-linux-aarch64.tar.gz.sig"
                     },
                     "timestamp": "2025-10-13T13:00:00Z",
-                    "openjdk_scm_ref": "jdk-25.0.0+36",
+                    "openjdk_scm_ref": "jdk-25+36",
                     "distribution": "microsoft",
                     "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/jdk25-release/jdk25-linux-aarch64.zip"
                 },
@@ -149,7 +149,7 @@
                         }
                     ],
                     "timestamp": "2025-10-13T13:00:00Z",
-                    "openjdk_scm_ref": "jdk-25.0.0+36",
+                    "openjdk_scm_ref": "jdk-25+36",
                     "distribution": "microsoft",
                     "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/jdk25-release/jdk25-macos-aarch64.zip"
                 }
