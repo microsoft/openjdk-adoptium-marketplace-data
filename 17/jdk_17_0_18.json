@@ -1,0 +1,159 @@
+{
+    "releases": [
+        {
+            "release_name": "jdk-17.0.18+8",
+            "last_updated_timestamp": "2026-02-04T15:00:00Z",
+            "vendor": "microsoft",
+            "openjdk_version_data": {
+                "major": 17,
+                "minor": 0,
+                "security": 18,
+                "patch": null,
+                "pre": null,
+                "build": 8,
+                "optional": null,
+                "openjdk_version": "17.0.18+8"
+            },
+            "source": {
+                "name": "microsoft-sources-17.0.18_8-all-noarch.tar.gz",
+                "link": "https://github.com/microsoft/openjdk-jdk17u/archive/refs/heads/release/jdk-17.0.18_8.tar.gz"
+            },
+            "binaries": [
+                {
+                    "os": "linux",
+                    "architecture": "x64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "microsoft-jdk-17.0.18-linux-x64.tar.gz",
+                        "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.18-linux-x64.tar.gz",
+                        "sha256sum": "0b0bc896d89a1741bbf3e7525addf9280b1aa3e13abb3183d19d98c0f2fbd1cc",
+                        "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.18-linux-x64.tar.gz.sha256sum.txt",
+                        "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.18-linux-x64.tar.gz.sig"
+                    },
+                    "timestamp": "2026-02-04T15:00:00Z",
+                    "openjdk_scm_ref": "jdk-17.0.18+8",
+                    "distribution": "microsoft",
+                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/jan-2026-psu/jdk17-linux-x64.zip"
+                },
+                {
+                    "os": "mac",
+                    "architecture": "x64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "microsoft-jdk-17.0.18-macos-x64.tar.gz",
+                        "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.18-macos-x64.tar.gz",
+                        "sha256sum": "e281696a0751638c41e531000bd72180872b714a5f8599085c9fec1f4ebc5415",
+                        "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.18-macos-x64.tar.gz.sha256sum.txt",
+                        "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.18-macos-x64.tar.gz.sig"
+                    },
+                    "installer": [
+                        {
+                            "name": "microsoft-jdk-17.0.18-macos-x64.pkg",
+                            "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.18-macos-x64.pkg",
+                            "sha256sum": "ebbe9e536ef534b381290eebf354542da73bbf8fd89c7f0828020d962a6afbc9",
+                            "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.18-macos-x64.pkg.sha256sum.txt"
+                        }
+                    ],
+                    "timestamp": "2026-02-04T15:00:00Z",
+                    "openjdk_scm_ref": "jdk-17.0.18+8",
+                    "distribution": "microsoft",
+                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/jan-2026-psu/jdk17-macos-x64.zip"
+                },
+                {
+                    "os": "windows",
+                    "architecture": "x64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "microsoft-jdk-17.0.18-windows-x64.zip",
+                        "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.18-windows-x64.zip",
+                        "sha256sum": "757815b4a0af282188d3141b9d84b91e68f8a10d9a599301ea1380590703070a",
+                        "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.18-windows-x64.zip.sha256sum.txt",
+                        "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.18-windows-x64.zip.sig"
+                    },
+                    "installer": [
+                        {
+                            "name": "microsoft-jdk-17.0.18-windows-x64.msi",
+                            "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.18-windows-x64.msi",
+                            "sha256sum": "6bbf66b1aaaed5ef5de821b831ddd06871d038fe6f100f7fe7ebf735772ffadc",
+                            "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.18-windows-x64.msi.sha256sum.txt"
+                        }
+                    ],
+                    "timestamp": "2026-02-04T15:00:00Z",
+                    "openjdk_scm_ref": "jdk-17.0.18+8",
+                    "distribution": "microsoft",
+                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/jan-2026-psu/jdk17-windows-x64.zip"
+                },
+                {
+                    "os": "windows",
+                    "architecture": "aarch64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "microsoft-jdk-17.0.18-windows-aarch64.zip",
+                        "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.18-windows-aarch64.zip",
+                        "sha256sum": "6be42dab77321505cbf36cf7cbf63d1ccbad2d52dca4c113424797c46e41b4aa",
+                        "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.18-windows-aarch64.zip.sha256sum.txt",
+                        "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.18-windows-aarch64.zip.sig"
+                    },
+                    "installer": [
+                        {
+                            "name": "microsoft-jdk-17.0.18-windows-aarch64.msi",
+                            "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.18-windows-aarch64.msi",
+                            "sha256sum": "81b1cd2b3c7418be4ed32397dff302dfa69569efd257a8ecfaab5f83a164dc7a",
+                            "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.18-windows-aarch64.msi.sha256sum.txt"
+                        }
+                    ],
+                    "timestamp": "2026-02-04T15:00:00Z",
+                    "openjdk_scm_ref": "jdk-17.0.18+8",
+                    "distribution": "microsoft",
+                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/jan-2026-psu/jdk17-windows-aarch64.zip"
+                },
+                {
+                    "os": "linux",
+                    "architecture": "aarch64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "microsoft-jdk-17.0.18-linux-aarch64.tar.gz",
+                        "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.18-linux-aarch64.tar.gz",
+                        "sha256sum": "a300df93b4e1fee51857e658cb83bd88896e195308a6ddb2090d2b3fee1e4921",
+                        "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.18-linux-aarch64.tar.gz.sha256sum.txt",
+                        "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.18-linux-aarch64.tar.gz.sig"
+                    },
+                    "timestamp": "2026-02-04T15:00:00Z",
+                    "openjdk_scm_ref": "jdk-17.0.18+8",
+                    "distribution": "microsoft",
+                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/jan-2026-psu/jdk17-linux-aarch64.zip"
+                },
+                {
+                    "os": "mac",
+                    "architecture": "aarch64",
+                    "image_type": "jdk",
+                    "jvm_impl": "hotspot",
+                    "package": {
+                        "name": "microsoft-jdk-17.0.18-macos-aarch64.tar.gz",
+                        "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.18-macos-aarch64.tar.gz",
+                        "sha256sum": "a9c8fe9bd41ffdcf82119b4ef0f7e3e833a91fee3094862769088b372c7680f6",
+                        "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.18-macos-aarch64.tar.gz.sha256sum.txt",
+                        "signature_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.18-macos-aarch64.tar.gz.sig"
+                    },
+                    "installer": [
+                        {
+                            "name": "microsoft-jdk-17.0.18-macos-aarch64.pkg",
+                            "link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.18-macos-aarch64.pkg",
+                            "sha256sum": "cb3d278ccea4500e085e78ea1e1cca543394bcdeddc8656a4c4778235425364e",
+                            "sha256sum_link": "https://aka.ms/download-jdk/microsoft-jdk-17.0.18-macos-aarch64.pkg.sha256sum.txt"
+                        }
+                    ],
+                    "timestamp": "2026-02-04T15:00:00Z",
+                    "openjdk_scm_ref": "jdk-17.0.18+8",
+                    "distribution": "microsoft",
+                    "aqavit_results_link": "https://github.com/microsoft/openjdk-adoptium-marketplace-data/releases/download/jan-2026-psu/jdk17-macos-aarch64.zip"
+                }
+            ]
+        }
+    ]
+}
