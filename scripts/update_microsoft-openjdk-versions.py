@@ -77,10 +77,10 @@ def files_from_binaries(binaries: list) -> list:
 
         files.append(
             {
-                "filename": package["name"],
+                "filename": package["name"].lower(),
                 "arch": binary["architecture"],
                 "platform": platform,
-                "download_url": package["link"],
+                "download_url": package["link"].lower(),
             }
         )
     return sorted(files, key=files_sort_key)
