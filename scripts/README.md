@@ -67,20 +67,22 @@ python create_marketplace_json.py --folder=../11 --new_version=11.0.26+4 --psu_t
 This Python script scans one or more version directories for new JDK releases and adds any missing entries to microsoft-openjdk-versions.json.
 
 Required inputs:
-- `--versions-file`: Path to microsoft-openjdk-versions.json
-- `--dir`: A directory containing an index.json, can be used multiple times (one per dir input)
+- `--versions-file`:    Path to microsoft-openjdk-versions.json
+- `--dir`:              A directory containing an index.json, can be used multiple times (one per dir input)
 
 Optional input:
-- `--help`: prints options to command line and exits
+- `--exclude_alpine`:   Exclude Alpine package entries (for jdk11 and jdk17) from generated files. (Boolean flag)
+- `--help`:             prints options to command line and exits
 
 ## Usage
 To run the script, `cd` into the `scripts` folder and use the following command:
 ```
 python update_microsoft-openjdk-versions.py --versions-file=<path> --dir=<dir> --dir=<dir> ...
 ```
-Example:
+Examples:
 ```
 python update_microsoft-openjdk-versions.py --versions-file=general_info/microsoft-openjdk-versions.json --dir=25 --dir=21 --dir=17 --dir=11
+python update_microsoft-openjdk-versions.py --versions-file=general_info/microsoft-openjdk-versions.json --dir=25 --dir=21 --dir=17 --dir=11 --exclude_alpine
 ```
 
 **Dependencies**:
