@@ -95,7 +95,6 @@ def files_from_binaries(binaries: list, version: str = "") -> list:
         and not alpine_already_exists
         and (version.startswith("11.") or version.startswith("17."))
     ):
-        logger.info(f"Appending Alpine entry for version: {version}")
         files.append(
             {
                 "filename": f"microsoft-jdk-{version}-alpine-x64.tar.gz",
