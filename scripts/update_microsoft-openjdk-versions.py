@@ -4,15 +4,17 @@ Scans one or more version directories for new JDK releases and adds any
 missing entries to microsoft-openjdk-versions.json.
 
 Usage:
-  update_microsoft-openjdk-versions --versions-file=<path> --dir=<dir>...
+  update_microsoft-openjdk-versions --versions-file=<path> --dir=<dir>... [--exclude_alpine]
 
 Options:
   --versions-file=<path>  Path to microsoft-openjdk-versions.json
   --dir=<dir>...          A directory containing an index.json, can be used multiple times (one per dir input)
+  --exclude_alpine        Exclude Alpine package entries (for jdk11 and jdk17) from generated files.
   --help                  Show this help message
 
 Example:
   update_microsoft-openjdk-versions --versions-file=general_info/microsoft-openjdk-versions.json --dir=25 --dir=21 --dir=17 --dir=11
+  update_microsoft-openjdk-versions --versions-file=general_info/microsoft-openjdk-versions.json --dir=25 --dir=21 --dir=17 --dir=11 --exclude_alpine
 """
 
 import json
@@ -25,14 +27,15 @@ logging.basicConfig(format="%(message)s", level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 OS_TO_PLATFORM = {
-    "alpine_linux": "alpine-linux",
+    "alpine_linux": "alpine",
     "linux": "linux",
     "mac": "darwin",
     "windows": "win32",
 }
 
 ARCH_ORDER = ["x64", "aarch64"]
-PLATFORM_ORDER = ["darwin", "linux", "win32", "alpine-linux"]
+PLATFORM_ORDER = ["darwin", "linux", "win32", "alpine"]
+EXCLUDE_ALPINE = False
 
 
 def files_sort_key(file: dict) -> tuple:
@@ -61,15 +64,18 @@ def version_string(openjdk_version_data: dict) -> str:
     return f"{major}.{minor}.{security}"
 
 
-def files_from_binaries(binaries: list) -> list:
+def files_from_binaries(binaries: list, version: str = "") -> list:
     """Extract file entries for microsoft-openjdk-versions.json from a binaries list."""
     files = []
+    alpine_already_exists = False
     for binary in binaries:
         os_name = binary.get("os")
         platform = OS_TO_PLATFORM.get(os_name)
         if platform is None:
             logger.warning(f"Unknown OS '{os_name}', skipping binary")
             continue
+        elif platform == "alpine":
+            alpine_already_exists = True
 
         package = binary.get("package")
         if not package:
@@ -83,6 +89,22 @@ def files_from_binaries(binaries: list) -> list:
                 "download_url": package["link"].lower(),
             }
         )
+
+    if (
+        not EXCLUDE_ALPINE
+        and not alpine_already_exists
+        and (version.startswith("11.") or version.startswith("17."))
+    ):
+        logger.info(f"Appending Alpine entry for version: {version}")
+        files.append(
+            {
+                "filename": f"microsoft-jdk-{version}-alpine-x64.tar.gz",
+                "arch": "x64",
+                "platform": "alpine",
+                "download_url": f"https://aka.ms/download-jdk/microsoft-jdk-{version}-alpine-x64.tar.gz",
+            }
+        )
+
     return sorted(files, key=files_sort_key)
 
 
@@ -107,7 +129,7 @@ def load_release_entry(release_file: Path) -> dict | None:
 
     version = version_string(openjdk_version_data)
     binaries = release.get("binaries", [])
-    files = files_from_binaries(binaries)
+    files = files_from_binaries(binaries=binaries, version=version)
 
     return {
         "version": version,
@@ -191,6 +213,7 @@ def main(versions_file: str, dirs: list[str]) -> None:
 
 if __name__ == "__main__":
     arguments = docopt(__doc__)
+    EXCLUDE_ALPINE = bool(arguments["--exclude_alpine"])
     main(
         versions_file=arguments["--versions-file"],
         dirs=arguments["--dir"],
