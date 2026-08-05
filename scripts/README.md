@@ -81,8 +81,8 @@ python update_microsoft-openjdk-versions.py --versions-file=<path> --dir=<dir> -
 ```
 Examples:
 ```
-python update_microsoft-openjdk-versions.py --versions-file=general_info/microsoft-openjdk-versions.json --dir=25 --dir=21 --dir=17 --dir=11
-python update_microsoft-openjdk-versions.py --versions-file=general_info/microsoft-openjdk-versions.json --dir=25 --dir=21 --dir=17 --dir=11 --exclude_alpine
+python update_microsoft-openjdk-versions.py --versions-file=../general_info/microsoft-openjdk-versions.json --dir=../25 --dir=../21 --dir=../17 --dir=../11
+python update_microsoft-openjdk-versions.py --versions-file=../general_info/microsoft-openjdk-versions.json --dir=../25 --dir=../21 --dir=../17 --dir=../11 --exclude_alpine
 ```
 
 **Dependencies**:
