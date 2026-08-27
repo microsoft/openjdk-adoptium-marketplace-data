@@ -55,13 +55,7 @@ def version_sort_key(version: str) -> tuple:
 
 def version_string(openjdk_version_data: dict) -> str:
     """Build a dotted version string from openjdk_version_data fields."""
-    major = openjdk_version_data["major"]
-    minor = openjdk_version_data["minor"]
-    security = openjdk_version_data["security"]
-    patch = openjdk_version_data.get("patch")
-    if patch:
-        return f"{major}.{minor}.{security}.{patch}"
-    return f"{major}.{minor}.{security}"
+    return openjdk_version_data["openjdk_version"].split("+")[0]
 
 
 def files_from_binaries(binaries: list, version: str = "") -> list:
