@@ -89,23 +89,50 @@ def create_new_json(
 
     today = datetime.now().strftime(DATE_FORMAT)
 
-    major_version = version.split(".")[0]
-    minor_version = version.split(".")[1]
-    security_version = version.split(".")[2].split("+")[0]
-    build_version = version.split("+")[1]
+    # Note: if we decide to start using the optional_version,
+    #   then we may need to add the var 'version_after_plus' as input to the template
+    version_before_plus, version_after_plus = version.split("+")[:2]
+    split_version = version_before_plus.split(".")
+
+    major_version = split_version[0]
+    minor_version = split_version[1]
+    # Splitting security version by '-' to handle case where there is a pre-version.
+    #   Example: in 11.0.6-ea+1 -- 'ea' is the pre_version
+    security_version: str = split_version[2].split("-")[0]
+    patch_version = "null"
+    pre_version = "null"
+    optional_version = "null"
+    if len(split_version) > 3:
+        # Splitting patch version by '-' to handle case where there is a pre_version.
+        #   Example: in 11.0.6.1-ea+1 -- 'ea' is the pre_version
+        patch_version = split_version[3].split("-")[0]
+    if "-" in split_version[-1]:
+        pre_version = split_version[-1].split("-")[1]
+
+    # Splitting build version by '-' to handle case where there is an optional_version.
+    #   Example: in 11.0.32.1+1-LTS -- 'LTS' is the optional_version
+    build_version = version_after_plus.split("-")[0]
+    if "-" in version_after_plus:
+        # Note: if we decide to start using the optional_version,
+        #   then we may need to add the var 'version_after_plus' as input to the template
+        optional_version = version_after_plus.split("-")[1]
 
     new_file_contents = template.render(
+        version_without_build=version_before_plus,
         major=major_version,
         minor=minor_version,
         security=security_version,
+        patch=patch_version,
+        pre=pre_version,
+        optional=optional_version,
         build=build_version,
         psu_tag=psu_tag,
         timestamp=today,
     )
 
     # Get rid of the build number and replace '.' with '_'
-    formatted_version = version.split("+")[0].replace(".", "_")
-    new_filename = f"jdk_{formatted_version}.json"
+    filename_version = "_".join(split_version)
+    new_filename = f"jdk_{filename_version}.json"
     new_file_path = Path(folder).joinpath(new_filename)
 
     with open(new_file_path, "w") as new_file:
