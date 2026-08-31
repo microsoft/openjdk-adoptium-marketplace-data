@@ -55,7 +55,11 @@ def version_sort_key(version: str) -> tuple:
 
 def version_string(openjdk_version_data: dict) -> str:
     """Build a dotted version string from openjdk_version_data fields."""
-    return openjdk_version_data["openjdk_version"].split("+")[0]
+    version_before_plus = openjdk_version_data["openjdk_version"].split("+")[0]
+    # Ensure that all versions have the format MAJOR.MINOR.SECURITY -- Example: 25+36 -> 25.0.0
+    while version_before_plus.count(".") < 2:
+        version_before_plus += ".0"
+    return version_before_plus
 
 
 def files_from_binaries(binaries: list, version: str = "") -> list:
